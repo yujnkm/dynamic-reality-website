@@ -1,1 +1,1 @@
-Sitemap: http://www.dynamicrealitylab.com/sitemap.xml
+Sitemap: http://dynamicrealitylab.com/sitemap.xml
