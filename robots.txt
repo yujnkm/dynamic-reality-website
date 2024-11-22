@@ -1,1 +1,1 @@
-Sitemap: https://yujnkm.github.io/dynamic-reality-website/sitemap.xml
+Sitemap: http://www.dynamicrealitylab.com/sitemap.xml
