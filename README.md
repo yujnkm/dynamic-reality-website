@@ -1,5 +1,5 @@
 
-# yujnkm's Website
+# Dynamic Reality Lab
 
 Visit **[dynamicrealitylab.com](https://dynamicrealitylab.com)** 🚀
 
