@@ -1,8 +1,8 @@
 ---
-name: Sarah Johnson
+name: Mascot
 image: images/photo.jpg
 description: Lead Programmer
-role: programmer
+role: mascot
 links:
   email: sarah.johnson@gmail.com
   twitter: sarahjohnson
