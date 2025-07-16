@@ -1,8 +1,8 @@
 ---
-name: Jane Smith
+name: You-Jin Kim
 image: images/photo.jpg
-role: pi
-affiliation: University of Colorado
+role: prof
+affiliation: Texas A&M University
 aliases:
   - J. Smith
   - J Smith
