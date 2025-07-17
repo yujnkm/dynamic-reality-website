@@ -11,22 +11,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" 
   filter="role == 'director' or role == 'prof'" %}
 
-{% include section.html %}
+<hr />
 
 {% include list.html data="members" component="portrait"
   filter="role != 'director' and role != 'prof' and role != 'friend' and role != 'mascot'" %}
 
-{% include section.html %}
+<hr />
 
 {% include list.html data="members" component="portrait"
   filter="role == 'friend'" %}
 
-{% include section.html %}
+<hr />
 
 {% include list.html data="members" component="portrait"
   filter="role == 'mascot'" %}
