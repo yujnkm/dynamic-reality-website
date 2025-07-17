@@ -1,7 +1,8 @@
 ---
 name: Daphne Dogerson
 image: images/members/mascot.png
-description: Lab Mascot
+description: |
+  Lab Mascot
 role: mascot
 ---
 
