@@ -4,6 +4,7 @@ image: images/members/youjin-kim.png
 role: prof
 description: |
   Director
+  <br/>
   Assistant Professor
 affiliation:
 aliases:
