@@ -2,6 +2,7 @@
 name: Michael Nguyen
 image: images/members/michael-nguyen.png
 role: grad
+description: VIZ MS Student
 affiliation: Texas A&M
 aliases:
 links:
