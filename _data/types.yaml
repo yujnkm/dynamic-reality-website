@@ -26,6 +26,10 @@ undergrad:
   icon: fa-solid fa-users
   description: Undergraduate Student
 
+friend:
+  icon: fa-solid fa-users
+  description: Undergraduate Student
+
 mascot:
   icon: fa-solid fa-paw
   description: Mascot
