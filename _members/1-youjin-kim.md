@@ -1,8 +1,8 @@
 ---
 name: You-Jin Kim
 image: images/members/youjin-kim.png
-role: prof
-description: |
+role: director
+description:
   Director
   <br/>
   Assistant Professor
