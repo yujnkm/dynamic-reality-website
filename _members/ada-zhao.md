@@ -1,8 +1,9 @@
 ---
 name: Ada Zhao
 image: images/members/ada-zhao.png
-role: grad
-affiliation: Texas A&M University
+role: phd
+description: ATLAS PhD Student
+affiliation: CU Boulder
 aliases:
 links:
 
