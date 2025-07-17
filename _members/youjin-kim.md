@@ -2,10 +2,11 @@
 name: You-Jin Kim
 image: images/members/youjin-kim.png
 role: prof
-affiliation: Texas A&M University
+description: 
+- Director
+- Assistant Professor
+affiliation:
 aliases:
-  - J. Smith
-  - J Smith
 links:
   home-page: https://www.yujnkm.com
   email: yujnkm@tamu.edu
