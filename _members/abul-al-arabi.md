@@ -3,8 +3,8 @@ name: Abul Al Arabi
 image: images/members/abul-al-arabi.png
 role: friend
 description: |
-  Lab Friends
-  CS PhD Student
+ Lab Friends
+ CS PhD Student
 affiliation: Texas A&M
 aliases:
 links:
