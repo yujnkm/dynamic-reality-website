@@ -14,9 +14,9 @@ phd:
   icon: fa-solid fa-graduate
   description: PhD Student
 
-master:
+grad:
   icon: fa-solid fa-user
-  description: Masters Student
+  description: Master Student
 
 undergrad:
   icon: fa-solid fa-users
