@@ -1,8 +1,10 @@
 ---
 name: Ada Zhao
 image: images/members/ada-zhao.png
-role: phd
-description: ATLAS PhD Student
+role: friend
+description: 
+- Lab Friends
+- ATLAS PhD Student
 affiliation: CU Boulder
 aliases:
 links:
