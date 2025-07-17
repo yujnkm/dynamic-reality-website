@@ -2,6 +2,10 @@
 
 # team member roles
 
+director:
+  icon: fa-solid fa-earth-americas
+  description: Director
+
 prof:
   icon: fa-solid fa-earth-americas
   description: Professor
