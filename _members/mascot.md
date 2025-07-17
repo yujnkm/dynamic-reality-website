@@ -1,7 +1,7 @@
 ---
 name: Doggo
-image: images/members/Mascot.jpg
-description: mascot
+image: images/members/mascot.png
+description: Mascot
 role: mascot
 ---
 
