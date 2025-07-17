@@ -1,7 +1,7 @@
 ---
-name: Doggo
+name: Daphne Dogerson
 image: images/members/mascot.png
-description: Mascot
+description: Lab Mascot
 role: mascot
 ---
 
