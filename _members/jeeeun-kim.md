@@ -3,8 +3,10 @@ name: Jeeeun Kim
 image: images/members/jeeeun-kim.png
 role: prof
 description: |
-  Assistant Professor 
+  Assistant Professor
+  <br/>
   Affiliated Faculty
+  <br/>
   (HCIED LAB)
 affiliation:
 aliases:
