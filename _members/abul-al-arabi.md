@@ -1,6 +1,6 @@
 ---
 name: Abul Al Arabi
-image: images/members/Abul_Al_Arabi.png
+image: images/members/abul-al-arabi.png
 role: grad
 affiliation: Texas A&M University
 aliases:
