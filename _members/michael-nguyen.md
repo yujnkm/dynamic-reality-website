@@ -2,7 +2,7 @@
 name: Michael Nguyen
 image: images/members/michael-nguyen.png
 role: grad
-affiliation: Texas A&M University
+affiliation: Texas A&M
 aliases:
 links:
 
