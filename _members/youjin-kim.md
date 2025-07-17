@@ -1,6 +1,6 @@
 ---
 name: You-Jin Kim
-image: images/members/You-Jin_Kim.jpg
+image: images/members/You-Jin_Kim.png
 role: prof
 affiliation: Texas A&M University
 aliases:
