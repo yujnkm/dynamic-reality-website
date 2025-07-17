@@ -1,8 +1,11 @@
 ---
 name: Abul Al Arabi
 image: images/members/abul-al-arabi.png
-role: grad
-affiliation: Texas A&M University
+role: friend
+description: |
+  Lab Friends
+  CS PhD Student
+affiliation: Texas A&M
 aliases:
 links:
 
