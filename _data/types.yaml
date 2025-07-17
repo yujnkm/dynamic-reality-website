@@ -2,29 +2,25 @@
 
 # team member roles
 
-pi:
-  icon: fa-solid fa-microscope
-  description: Principal Investigator
-
-postdoc:
-  icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
-
 prof:
-  icon: fa-solid fa-user-tie
+  icon: fa-solid fa-earth-americas
   description: Professor
 
-phd:
+postdoc:
   icon: fa-solid fa-graduation-cap
+  description: Postdoctoral Researcher
+
+phd:
+  icon: fa-solid fa-graduate
   description: PhD Student
 
-undergrad:
-  icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+master:
+  icon: fa-solid fa-user
+  description: Masters Student
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
+undergrad:
+  icon: fa-solid fa-users
+  description: Undergraduate Student
 
 mascot:
   icon: fa-solid fa-paw
