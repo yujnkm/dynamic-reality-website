@@ -2,7 +2,8 @@
 name: Bidwat Raj Pokhrel
 image: images/members/bidwat-raj-pokhrel.png
 role: phd
-description: CS PhD Student
+description: |
+  CS PhD Student
 affiliation: Texas A&M
 aliases:
 links:
