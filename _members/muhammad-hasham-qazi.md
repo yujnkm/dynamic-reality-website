@@ -1,8 +1,8 @@
 ---
 name: Muhammad Hasham Qazi
 image: images/members/muhammad-hasham-qazi.png
-role: grad
-affiliation: Texas A&M University
+role: phd
+affiliation: Texas A&M
 aliases:
 links:
 
