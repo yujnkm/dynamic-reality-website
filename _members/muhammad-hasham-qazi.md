@@ -2,6 +2,7 @@
 name: Muhammad Hasham Qazi
 image: images/members/muhammad-hasham-qazi.png
 role: phd
+description: CS PhD Student
 affiliation: Texas A&M
 aliases:
 links:
