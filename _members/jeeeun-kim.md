@@ -1,10 +1,15 @@
 ---
 name: Jeeeun Kim
 image: images/members/jeeeun-kim.png
-role: grad
-affiliation: Texas A&M University
+role: prof
+description: 
+- Assistant Professor
+- Affiliated Faculty
+- ([HCIED LAB](https://hcied.info/hcieders.html))
+affiliation:
 aliases:
 links:
+home-page: https://hcied.info/hcieders.html
 
 ---
 
