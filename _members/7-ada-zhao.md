@@ -6,7 +6,10 @@ description: |
   Lab Friends
   <br/>
   ATLAS PhD Student
-affiliation: CU Boulder
+affiliation: |
+  CU Boulder
+  <br/>
+  Texas A&M
 aliases:
 links:
 
