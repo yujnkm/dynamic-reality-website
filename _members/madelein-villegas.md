@@ -2,7 +2,8 @@
 name: Madelein Villegas
 image: images/members/madelein-villegas.png
 role: grad
-affiliation: Texas A&M University
+description: CS MS Student
+affiliation: Texas A&M
 aliases:
 links:
 
