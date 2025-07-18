@@ -8,8 +8,6 @@ description: |
   ATLAS PhD Student
 affiliation: |
   CU Boulder
-  <br/>
-  Texas A&M
 aliases:
 links:
 
