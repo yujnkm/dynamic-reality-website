@@ -5,8 +5,10 @@ role: director
 description:
   Director
   <br/>
+  Dynamic Reality Lab
+  <br/>
   Assistant Professor
-affiliation:
+affiliation: Texas A&M
 aliases:
 links:
   home-page: https://www.yujnkm.com
