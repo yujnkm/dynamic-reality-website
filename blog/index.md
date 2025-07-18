@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-envelope" %}News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+See below for the latest Dynamic Reality Lab news!
 
 {% include section.html %}
 
