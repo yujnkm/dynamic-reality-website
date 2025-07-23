@@ -1,6 +1,6 @@
 ---
-name: Muhammad Hasham Qazi
-image: images/members/muhammad-hasham-qazi.png
+name: Hasham Qazi
+image: images/members/hasham-qazi.png
 role: phd
 description: |
   CS PhD Student
