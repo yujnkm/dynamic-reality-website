@@ -1,11 +1,11 @@
 ---
-title: Contact
+title: Contact Us
 nav:
   order: 5
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact Us
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -26,14 +26,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-##Lab Location
+## Lab Location
 
 {% capture col1 %}
 
 {%
   include figure.html
   image="images/location-01.jpg"
-  caption="Langford C [ARCC] Room 421 <br>
+  caption="Langford C [ARCC] - Room 421 <br>
   788 Ross St, College Station, TX 77843"
 %}
 
@@ -49,7 +49,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <br>
 
-##Parking
+## Parking
+
+  If you are a scheduled visitor, please let me know so I can issue a full-day pass in advance. If you are not scheduled, the full-day pass is $15.
 
 {% capture col1 %}
 
@@ -57,9 +59,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include figure.html
   image="images/location-01.jpg"
   caption="Polo Rd Garage [PRG] <br>
-  300 Polo Road, College Station, TX 77843 <br>
-  If you are a scheduled visitor, please let me know so I can issue a full-day pass in advance. If you are not scheduled, the full-day pass is $15.
-  "
+  300 Polo Road, College Station, TX 77843"
 %}
 
 {% endcapture %}
