@@ -32,7 +32,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/location_02.jpg"
+  image="images/photos/location_01.jpg"
   caption="Langford C [ARCC] - Room 421 <br>
   788 Ross St, College Station, TX 77843"
 %}
@@ -57,7 +57,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/location_01.jpg"
+  image="images/photos/location_02.jpg"
   caption="Polo Rd Garage [PRG] <br>
   300 Polo Road, College Station, TX 77843"
 %}
