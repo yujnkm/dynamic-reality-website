@@ -1,9 +1,9 @@
 ---
 ---
 
-# yujnkm's Website
+# Welcome to our Lab!
 
-An engaging 1-3 sentence description of your lab.
+The Dynamic Reality Lab (DRL) specializes in human-computer interaction in wide-area augmented reality. Our aim is to enhance human interaction in the physical world through spatial computing. We deploy sensing technologies such as EEG, EMG, and eye-tracking to interpret human behavior and optimize interactions in extended reality.
 
 {% include section.html %}
 
