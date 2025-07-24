@@ -16,7 +16,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Featured
+## Current Research
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
