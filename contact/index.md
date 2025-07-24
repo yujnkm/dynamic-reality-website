@@ -44,11 +44,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture col2 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.3643549441467!2d-96.3386220303304!3d30.619502998414962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8646839137174d43%3A0x9f0f8d71ead29d3b!2sArchitecture%20Center%20Bldg%20C%2C%203137%20TAMU%2C%20College%20Station%2C%20TX%2077840!5e1!3m2!1sen!2sus!4v1753391462597!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% endcapture %}
 
