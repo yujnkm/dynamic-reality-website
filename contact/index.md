@@ -23,12 +23,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   text="(555) 867-5309"
   link="+1-555-867-5309"
 %}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
 
 {% include section.html %}
 
@@ -36,8 +30,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/location-01.jpg"
+  caption="Langford C [ARCC] Room 421
+  788 Ross St, College Station, TX 77843"
 %}
 
 {% endcapture %}
