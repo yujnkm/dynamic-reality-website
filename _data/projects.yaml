@@ -1,4 +1,4 @@
-- title: Cool Dataset
+- title: Wide-Area Study
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -8,7 +8,27 @@
   tags:
     - resource
 
-- title: Cool Package
+- title: EEG AR Study
+  subtitle: a subtitle
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+  - title: Simulation Spatial Experience
+  subtitle: a subtitle
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+  - title: AI Agents Physical Employment
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
