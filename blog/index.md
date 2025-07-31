@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-envelope" %}News
 
-See below for the latest Dynamic Reality Lab news!
+Stay up to date with our lab’s recent work, publications, presentations, and events. Here we share highlights of our progress and milestones as we explore new realities.
 
 {% include section.html %}
 
