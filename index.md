@@ -11,7 +11,7 @@ The Dynamic Reality Lab (DRL) specializes in human-computer interaction in wide-
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We use VR and AR to study how people interact with dynamic, immersive environments. Our research blends creativity and technology to uncover new insights.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We design and test interactive experiences, from experimental prototypes to fully realized applications. Each project helps us push the boundaries of what’s possible.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a collaborative group of students and researchers who learn, experiment, and grow together in the world of immersive media.
 
 {%
   include button.html
