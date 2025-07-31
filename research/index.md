@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We study how people experience and interact with dynamic, immersive environments. Our research explores virtual and augmented reality, perception, and human-computer interaction, aiming to deepen understanding and open new possibilities for design.
 
 {% include section.html %}
 
