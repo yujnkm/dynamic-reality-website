@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our projects range from experimental prototypes to applied interactive systems. Each project combines creativity, technical skills, and research insights to explore new ways of engaging with virtual and augmented worlds.
 
 {% include tags.html tags="publication, resource, website" %}
 
