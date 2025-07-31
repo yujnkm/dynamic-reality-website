@@ -28,7 +28,7 @@ We use VR and AR to study how people interact with dynamic, immersive environmen
   include feature.html
   image="images/photos/You-Jin_01.jpg"
   link="research"
-  title="Our Research"
+  title="Exploring Interaction"
   text=text
 %}
 
@@ -51,7 +51,7 @@ We design and test interactive experiences, from experimental prototypes to full
   include feature.html
   image="images/photos/lab_10.jpg"
   link="projects"
-  title="Our Projects"
+  title="Prototype to Play"
   flip=true
   style="bare"
   text=text
@@ -76,6 +76,6 @@ We are a collaborative group of students and researchers who learn, experiment, 
   include feature.html
   image="images/photos/lab_11.jpg"
   link="team"
-  title="Our Team"
+  title="Our Creative Crew"
   text=text
 %}
