@@ -1,67 +1,111 @@
-- title: Wide-Area Study
-  subtitle: a subtitle
+- title: SABER
+  subtitle: "Presented: IEEE VR 2026 - [Brain Sensing and Stimulation Session] March 25, 2026, Daegu, Korea"
   group: featured
-  image: images/projects/loading.gif
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/saber.png
+  link: https://www.yujnkm.com/projects/saber
+  description: Univariate EEG metrics used for 2D spatial attention generalize effectively to immersive, dynamic 3D virtual reality environments
 
-- title: EEG AR Study
-  subtitle: a subtitle
+- title: On the Go with AR
+  subtitle: "Presented: ACM CHI 2025 - [Virtual and Mixed Reality Interaction Session] April 30, 2025, Yokohama, Japan"
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/on-the-go-with-ar.jpg
+  link: https://www.yujnkm.com/projects/on-the-go-with-ar
+  description: Demonstrated how AR task demands fundamentally alter environmental awareness, forcing users to split focus between physical and virtual elements
 
-- title: Simulation Spatial Experience
-  subtitle: a subtitle
+- title: NeuResonance
+  subtitle: "Presented: ACM CHI 2025 - [Embodied Simulation Session] May 1, 2025, Yokohama, Japan"
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/neuresonance.jpg
+  link: https://www.yujnkm.com/projects/neuresonance
+  description: Auditory feedback provides the most consistent and significant improvement in inter-brain synchronization compared to visual and haptic modalities
 
-- title: AI Agents Physical Employment
-  subtitle: a subtitle
+- title: Beyond Reality
+  subtitle: "Presented: UCSB - November 8, 2024, Santa Barbara, California"
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/beyond-reality.png
+  link: https://www.yujnkm.com/projects/beyond-reality
+  description: Conducted an outdoor user study evaluating how wide-area AR navigation cues impact spatial memory and object recall
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: Audience Amplified
+  subtitle: "Presented: IEEE ISMAR 2024 - [Avatar 2 Session] October 24, 2024, Bellevue, Greater Seattle area"
+  group: featured
+  image: images/projects/audience-amplified.jpg
+  link: https://www.yujnkm.com/projects/audience-amplified
+  description: Provides a proof-of-concept for capturing and reliving historical, human-involved events through the deployment of DNN avatar audiences
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Reality Distortion Room
+  subtitle: "Presented: IEEE ISMAR 2023 - [Navigation and Locomotion Session] October 18, 2023, Sydney, Australia"
+  group: featured
+  image: images/projects/reality-distortion-room.jpg
+  link: https://www.yujnkm.com/projects/reality-distortion-room
+  description: Demonstrates that visual distortions predictably guide natural human movement without using explicit verbal or written prompts
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Dynamic Theater
+  subtitle: "Presented: ACM VRST 2023 - [Technologies in the Wild Session] October 10, 2023, Christchurch, New Zealand"
+  group: featured
+  image: images/projects/dynamic-theater.png
+  link: https://www.yujnkm.com/projects/dynamic-theater
+  description: Immersion in AR environments significantly distorts temporal perception, causing participants to overestimate the duration of their experience by 37%
+
+- title: JourneyReplay
+  subtitle: 
+  group: featured
+  image: images/projects/journey-replay.jpg
+  link: https://www.yujnkm.com/projects/journeyreplay
+  description: FOV playback accurately representing the user’s perspective using digital twins helps measure cognitive load and spatial awareness across outdoor AR environments
+
+- title: FractalBrain
+  subtitle: "Presented: ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi"
+  group: featured
+  image: images/projects/fractal-brain.jpg
+  link: https://www.yujnkm.com/projects/fractalbrain
+  description: Fractal-inspired visuals elicit maximal alpha responses in the brain's frontal region, indicating a deeply relaxed and calm meditative state
+
+- title: Spatial Orchestra
+  subtitle: "Presented: ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi"
+  group: featured
+  image: images/projects/spatial-orchestra.jpg
+  link: https://www.yujnkm.com/projects/spatial-orchestra
+  description: Maps human gait to audio synthesis, allowing users to achieve musical expression and creation through intuitive physical movement and walking
+
+- title: Virtual Campus
+  subtitle: 
+  group: featured
+  image: images/projects/virtual-campus.jpg
+  link: https://www.yujnkm.com/projects/virtual-campus
+  description: Preserves a precise digital record of location architecture, ensuring long-term historical spatial documentation for heritage conservation and future structural reference
+
+- title: World Tracer
+  subtitle: 
+  group: featured
+  image: images/projects/world-tracer.jpg
+  link: https://www.yujnkm.com/projects/world-tracer
+  description: The work establishes a continuous learning pipeline where simulation evolves with the physical world, creating a closed-loop system for fleet optimization
+
+- title: Wide-area AR 2
+  subtitle: "Presented: ACM CHI 2023 - [Supporting users in AR and VR Session] April 26, 2023, Hamburg, Germany"
+  group: featured
+  image: images/projects/wide-area-ar-2.png
+  link: https://www.yujnkm.com/projects/wide-area-ar-2
+  description: All three AR navigation aids significantly minimize visual search trial time and total head rotation compared to navigating with no assistive cues
+
+- title: Wide-area AR 1
+  subtitle: "Presented: IEEE ISMAR 2022 - [Evaluation Session] October 19, 2022, Singapore"
+  group: featured
+  image: images/projects/wide-area-ar-1.jpg
+  link: https://www.yujnkm.com/projects/wide-area-ar-1
+  description: Outdoor AR search task completion time and distance traveled significantly decrease over sequential trials, demonstrating strong spatial learning effects
+
+- title: Climate Simulation
+  subtitle: "Presented: ACM SIGGRAPH SPARKS 2023 - [Spatiality in Virtual Reality Session] January 27, 2023, Remote Presentation"
+  group: featured
+  image: images/projects/climate-simulation.jpg
+  link: https://www.yujnkm.com/projects/climate-simulation
+  description: Demonstrated the feasibility of interactive, outdoor AR narratives that successfully convey the true scale of events to the viewer
+
+- title: ATLAS
+  subtitle: "Presented: Magic Leap Independent Creator Program Pitch Presentation,  February 4, 2019, Magic Leap, Plantation, Florida"
+  group: featured
+  image: images/projects/atlas.png
+  link: https://www.yujnkm.com/projects/atlas
+  description: Reimagines room-scale AR interactions, using spatial interaction design to maximize user understanding of mixed reality despite a limited hardware field of view
