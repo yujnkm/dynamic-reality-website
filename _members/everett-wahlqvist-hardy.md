@@ -1,6 +1,6 @@
 ---
-name: Thomas Marxsen
-image: images/members/thomas-marxsen.png
+name: Everett Wahlqvist-Hardy
+image: images/members/everett-wahlqvist-hardy.png
 role: undergrad
 description: |
   CS Undergraduate Researcher
