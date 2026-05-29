@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  line-height: var(--spacing);
+  box-shadow: var(--shadow);
+}
+
+footer a {
+  color: var(--text) !important;
+}
+
+footer a:hover {
+  color: var(--primary) !important;
+}
+
+footer .icon {
+  font-size: var(--xl);
+}
+
+footer.background {
+  background-color: #67d2a0;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=footer.css.map */
