@@ -34,6 +34,9 @@ mascot:
   icon: fa-solid fa-paw
   description: Mascot
 
+alumni:
+  icon: fa-solid fa-users
+
 # general
 
 link:

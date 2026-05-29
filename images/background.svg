@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="none" stroke-opacity="0"/>
+
+  <!-- triangles -->
+  <polygon points="80,40 160,180 20,150" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="320,250 420,280 360,180" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="500,10 590,100 430,80" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="680,200 780,260 700,290" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="850,20 950,60 880,140" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="1020,180 1130,220 1080,290" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="1150,30 1200,110 1100,90" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="200,10 260,80 150,60" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="600,230 680,280 570,270" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+  <polygon points="1000,60 1080,30 1060,120" fill="none" stroke="white" stroke-opacity="1" stroke-width="3"/>
+
+  <!-- squares/rects -->
+  <rect x="50" y="200" width="80" height="80" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(18 90 240)"/>
+  <rect x="240" y="100" width="60" height="60" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(-28 270 130)"/>
+  <rect x="430" y="170" width="50" height="50" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(40 455 195)"/>
+  <rect x="620" y="30" width="70" height="70" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(-15 655 65)"/>
+  <rect x="780" y="160" width="55" height="55" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(33 807 187)"/>
+  <rect x="900" y="230" width="65" height="65" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(-22 932 262)"/>
+  <rect x="1100" y="140" width="45" height="45" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(50 1122 162)"/>
+  <rect x="350" y="20" width="40" height="40" fill="none" stroke="white" stroke-opacity="1" stroke-width="3" transform="rotate(10 370 40)"/>
+</svg>

@@ -6,6 +6,7 @@
     {% endif %}
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
     class="card-image"
+    target="_blank"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
@@ -25,6 +26,7 @@
           data-tooltip="{{ include.tooltip | xml_escape }}"
         {% endif %}
         class="card-title"
+        target="_blank"
       >
         {{ include.title }}
     </a>

@@ -74,7 +74,7 @@ We are a collaborative group of students and researchers who learn, experiment, 
 
 {%
   include feature.html
-  image="images/photos/lab_11.jpg"
+  image="images/photos/group_01.png"
   link="team"
   title="Our Creative Crew"
   text=text

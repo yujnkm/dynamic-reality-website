@@ -9,6 +9,10 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
+section[data-size="medium"] {
+  padding: $padding max($padding, calc((100% - 1500px) / 2));
+}
+
 section[data-size="wide"] {
   padding: $padding;
 }

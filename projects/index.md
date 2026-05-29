@@ -9,18 +9,10 @@ nav:
 
 Our projects range from experimental prototypes to applied interactive systems. Each project combines creativity, technical skills, and research insights to explore new ways of engaging with virtual and augmented worlds.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include section.html size="medium" %}
 
-{% include search-info.html %}
+{% capture content %}
+{% include list.html component="card" data="projects" %}
+{% endcapture %}
 
-{% include section.html %}
-
-## Current Research
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include grid.html content=content %}
