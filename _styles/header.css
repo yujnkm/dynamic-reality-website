@@ -144,4 +144,9 @@ header[data-big] .subtitle {
   font-size: var(--large);
 }
 
+header.background {
+  background-color: #67d2a0;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=header.css.map */

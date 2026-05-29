@@ -21,4 +21,9 @@ footer .icon {
   font-size: var(--xl);
 }
 
+footer.background {
+  background-color: #67d2a0;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=footer.css.map */
