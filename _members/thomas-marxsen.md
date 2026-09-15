@@ -1,10 +1,9 @@
 ---
 name: Thomas Marxsen
 image: images/members/thomas-marxsen.png
-role: undergrad
+role: staff
 description: |
-  CS Undergraduate Researcher
-affiliation: UNL
+  Research Specialist II
 aliases:
 links:
 ---

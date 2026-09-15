@@ -1,10 +1,9 @@
 ---
 name: Lijun Mao
 image: images/members/lijun-mao.png
-role: phd
+role: staff
 description: |
-  CS  PhD Student
-affiliation: UNL
+  Research Specialist II
 aliases:
 links:
 ---

@@ -16,10 +16,14 @@
     | default: nil
   %}
   {% assign size = section | regex_scan: "size: (.*);" | default: "page" %}
+  {% assign style = section | regex_scan: "style: (.*);" | default: "" %}
 
   <section
     class="background"
     data-size="{{ size }}"
+    {% if style != "" %}
+      data-style="{{ style }}"
+    {% endif %}
     {% if dark == "true" or dark == "false" %}
       data-dark="{{ dark }}"
     {% endif %}

@@ -37,6 +37,22 @@ $wrap: 800px;
   font-weight: var(--semi-bold);
 }
 
+.feature[data-style="research-area"] {
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.feature[data-style="research-area"] .feature-image {
+  width: 150px;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  box-shadow: none;
+}
+
+.feature[data-style="research-area"] .feature-title {
+  text-align: left;
+}
+
 .feature[data-flip] {
   flex-direction: row-reverse;
 }

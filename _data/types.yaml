@@ -3,11 +3,11 @@
 # team member roles
 
 director:
-  icon: fa-solid fa-earth-americas
+  icon: fa-solid fa-user-tie
   description: Director
 
 prof:
-  icon: fa-solid fa-earth-americas
+  icon: fa-solid fa-user-tie
   description: Professor
 
 postdoc:
@@ -18,16 +18,20 @@ phd:
   icon: fa-solid fa-user-graduate
   description: PhD Student
 
+staff:
+  icon: fa-solid fa-seedling
+  description: Research Specialist
+
 grad:
-  icon: fa-solid fa-user
+  icon: fa-solid fa-seedling
   description: Master Student
 
 undergrad:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-seedling
   description: Undergraduate Student
 
 friend:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-seedling
   description: Undergraduate Student
 
 mascot:
@@ -35,7 +39,7 @@ mascot:
   description: Mascot
 
 alumni:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-graduation-cap
 
 # general
 

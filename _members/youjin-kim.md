@@ -8,7 +8,6 @@ description:
   Dynamic Reality Lab
   <br/>
   Assistant Professor
-affiliation: University of Nebraska - Lincoln
 aliases:
 links:
   home-page: https://www.yujnkm.com

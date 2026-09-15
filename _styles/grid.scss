@@ -22,6 +22,10 @@ $one: 500px;
   margin: 0 !important;
 }
 
+.grid[data-style="two"] {
+  --repeat: 2;
+}
+
 @media (max-width: $two) {
   .grid {
     --repeat: 2;
@@ -29,7 +33,8 @@ $one: 500px;
 }
 
 @media (max-width: $one) {
-  .grid {
+  .grid,
+  .grid[data-style="two"] {
     --repeat: 1;
   }
 }

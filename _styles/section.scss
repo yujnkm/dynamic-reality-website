@@ -41,3 +41,7 @@ main > section:nth-of-type(odd) {
 main > section:nth-of-type(even) {
   background: var(--background-alt);
 }
+
+main > section[data-style="gray"] {
+  background: #282828;
+}

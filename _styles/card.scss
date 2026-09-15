@@ -16,6 +16,31 @@
   vertical-align: top;
 }
 
+.card[data-style="project"] {
+  max-width: 100%;
+}
+
+.card[data-style="project"] .card-image img {
+  aspect-ratio: 4 / 3;
+}
+
+.card[data-style="project"] .card-text {
+  gap: 8px;
+  padding: 12px 20px 16px;
+  line-height: var(--compact);
+}
+
+.card[data-style="project"] .card-subtitle {
+  margin-top: 0 !important;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+.card[data-style="project"] p {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
 .card[data-style="small"] {
   width: 250px;
 }
