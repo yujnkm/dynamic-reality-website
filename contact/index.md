@@ -2,19 +2,15 @@
 title: Contact Us
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Email, joining the lab, and where to find us
 ---
 
-Welcome to the Dynamic Reality Lab (DRL) at the University of Nebraska–Lincoln, directed by Dr. You-Jin Kim. We are dedicated to advancing the future of Spatial Computing, Human-Computer Interaction (HCI), Computer Vision, AR/VR, Data Visualization, AI Agents, Simulation, Machine Learning, and Autonomous Systems.
+We are always glad to hear from students, collaborators, and anyone curious about the work we do.
 
-### Interested in Joining the Lab?
+- **Research and general inquiries:** [drlab@unl.edu](mailto:drlab@unl.edu)
+- **Questions about joining:** [dynamicrealitylab@gmail.com](mailto:dynamicrealitylab@gmail.com)
 
-1. **Submit an Interest Form:** Completing our Interest Form is strictly required for consideration. Once submitted, a lab member will review your application and reach out directly if your profile is a strong match to schedule a Zoom interview or discuss next steps.
-2. **Inquiries:** For questions about joining, please email us directly at **[dynamicrealitylab@gmail.com](mailto:dynamicrealitylab@gmail.com)** (please do *not* use our university email address).
-
-### Official Research Inquiries
-
-For official inquiries or research-related questions, contact us at **[drlab@unl.edu](mailto:drlab@unl.edu)**.
+Thinking about joining us? Have a look around the lab first, then read [Joining the Lab](#joining-the-lab) along with the notes for [prospective PhD students](#prospective-phd-students) or [undergraduate and current UNL students](#unl-students).
 
 {% include section.html %}
 
@@ -33,16 +29,14 @@ For official inquiries or research-related questions, contact us at **[drlab@unl
 
 {% capture col2 %}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1248.1866208322483!2d-96.69799344611833!3d40.82278693428522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bf00283e6527%3A0x28044e72f1967e94!2sNebraska%20Hall!5e1!3m2!1sen!2sus!4v1779999925136!5m2!1sen!2sus" width="480" height="356" style="border:0; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1248.1866208322483!2d-96.69799344611833!3d40.82278693428522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bf00283e6527%3A0x28044e72f1967e94!2sNebraska%20Hall!5e1!3m2!1sen!2sus!4v1779999925136!5m2!1sen!2sus" title="Map showing Nebraska Hall, 900 N 16th St, Lincoln, NE" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html %}
-
 {% capture col1 %}
-The Dynamic Reality Lab (DRL) is located inside Nebraska Hall on the University of Nebraska–Lincoln City Campus. The Dynamic Reality Lab is situated on the west side of Nebraska Hall, running along North 16th Street. If you are arriving by car, the lab directly faces Lot 10, which sits just across North 16th Street to the west. Immediately to the south, Nebraska Hall connects to the Scott Engineering Center. Just across North 16th Street to the west and southwest, you will see Theodore Jorgensen Hall (Department of Physics and Astronomy).
+The lab sits on the west side of Nebraska Hall on UNL's City Campus, running along North 16th Street. If you are driving, Lot 10 is directly across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center immediately to the south, and Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, is across 16th Street to the southwest.
 {% endcapture %}
 
 {% capture col2 %}
@@ -51,51 +45,17 @@ The Dynamic Reality Lab (DRL) is located inside Nebraska Hall on the University 
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{%
-  include button.html
-  link="https://forms.gle/QrrC1ytTcdz8eCjq9"
-  text="Prospective PhD Student Interest Form"
-%}
-
-Once your information is in our system, a member of the lab will review your application. We will reach out directly if your profile is a strong match to schedule a Zoom interview or begin further communication. <span style="color: #dc2626; font-weight: bold;">Please note that a completed Interest form is strictly required for consideration and further communication.</span>
-
-For inquiries regarding joining the lab, please contact us at <a href="mailto:dynamicrealitylab@gmail.com" style="color: #16a34a; font-weight: bold;">dynamicrealitylab@gmail.com</a> instead of our Nebraska email address.
-
-### Financial Transparency & Living Standards
-
-All PhD students in the Dynamic Reality Lab (DRL) are fully funded. Under the supervision of PI, Dr. You-Jin Kim, students receive a monthly stipend of **$2,800**, distributed year-round including summer ($2,800 from Fall 2026). This package includes full health insurance and total tuition remission (covering both in-state and out-of-state rates).
-
-To provide local context: a standard one-bedroom loft in downtown Lincoln is approximately $1,090 per month (April 2026). This ensures that our researchers can maintain a comfortable quality of life while focusing on the research.
-
 {% include section.html %}
 
-## Undergraduate & Internal UNL Students
+## Facilities
 
-We are always looking for motivated students to participate in research projects.
+The Dynamic Reality Lab occupies 1,200 square feet in Nebraska Hall (NH W192), built out for controlled spatial computing research. The space holds a data center (W192C), student workspaces (W192 and W192A), a conference room, and an outdoor footprint for wide-area AR experiments.
 
-- **Complete Our Application:** Fill out the [Student Application Form](https://forms.gle/QrrC1ytTcdz8eCjq9).
-- **Connect With Us:** Feel free to reach out directly to any of our lab members to discuss ongoing projects.
-
-**Helpful Tips:**
-
-1. Research is very different from undergraduate classes, in which a curriculum and desired learning outcomes are set for you by an instructor. As a researcher you develop and pursue your own research (with some help from a more experienced mentor).
-2. To get started, take a relevant course like Spatial Interaction and Simulation, Generative AI and Design, Computer Graphics, Wide-Area AR + Interactive Narrative, or Advanced Topics in Software Engineering, and see if you want to deepen your project work in that area.
-3. Do your research first! Look into the lab: lab topic areas, recent publications, PhD student research focuses. Find what might interest you and reach out to lab members whose work you are interested in learning more about.
-4. Personal messages that demonstrate specific interest are always more appreciated than general inquiries. Include what you want to work on, which project you want to contribute to, and how many hours per week you can put in.
-
-{% include section.html %}
-
-## Lab Location and Facilities
-
-Located in Nebraska Hall (NH W192), the Dynamic Reality Lab is a 1,200 sq. ft. facility specifically engineered for controlled spatial computing research. The facility includes a high-performance data center (W192C), dedicated student workspaces (W192/W192A), a conference room, and an outdoor wide-area AR experimental footprint.
-
-### Core Research Infrastructure
-
-- **Compute & Rendering Stack:** Ten (10) custom high-performance workstations featuring Intel Core i7-14700K processors paired with NVIDIA RTX A6000 (48GB VRAM), Quadro RTX 5000 (32GB VRAM), and RTX 5070 Ti (16GB VRAM) GPUs.
-- **Augmented Reality (AR):** Magic Leap 2, Microsoft HoloLens 2, and Snapchat Spectacles.
-- **Video Passthrough & VR:** Fleet of Meta Quest 3 and Meta Quest Pro headsets.
-- **Spatial Capture & Reconstruction:** XGRIDS PortalCam scanner, Insta360 X5, Matterport, and specialized LiDAR capture devices.
-- **Prototyping & Amenities:** Dedicated student Alienware workstations, 3D printing equipment, and student lounge amenities.
+- **Compute and rendering:** Ten custom workstations with Intel Core i7-14700K processors and NVIDIA RTX A6000 (48 GB), Quadro RTX 5000 (32 GB), and RTX 5070 Ti (16 GB) GPUs.
+- **Augmented reality:** Magic Leap 2, Microsoft HoloLens 2, and Snapchat Spectacles.
+- **Video passthrough and VR:** A fleet of Meta Quest 3 and Meta Quest Pro headsets.
+- **Spatial capture and reconstruction:** XGRIDS PortalCam scanner, Insta360 X5, Matterport, and dedicated LiDAR capture devices.
+- **Prototyping and amenities:** Alienware workstations for students, 3D printing equipment, and a student lounge.
 
 {%
   include figure.html
@@ -105,26 +65,96 @@ Located in Nebraska Hall (NH W192), the Dynamic Reality Lab is a 1,200 sq. ft. f
 
 ### Lab History
 
-The Dynamic Reality Lab was established in early 2024, developing its core concepts at UC Santa Barbara before establishing its initial physical facility at Texas A&M University. In January 2026, DRL relocated to its permanent home at the University of Nebraska–Lincoln, where it continues to study wide-area outdoor AR experiments and Human-AI Interaction in mixed reality.
+The Dynamic Reality Lab started in early 2024, taking shape at UC Santa Barbara before opening its first physical space at Texas A&M University. In January 2026 the lab moved to its permanent home at the University of Nebraska–Lincoln, where it continues to run wide-area outdoor AR experiments and study human-AI interaction in mixed reality.
 
 {% include section.html %}
 
-## Student Checklist
+## Joining the Lab
 
-We are always looking for motivated students who are passionate about pushing the boundaries of reality. If you are interested in joining the **Dynamic Reality Lab (DRL)**, please follow these steps:
+We look for students who are excited about pushing on what reality can be, and who want to build and test things rather than only read about them. Everyone who joins the lab goes through the same three steps.
 
-**1. Research Our Mission**
+<div class="steps">
+  <div class="step">
+    <span class="step-number">1</span>
+    <span class="step-title">Read about our research</span>
+    <p>Look through our <a href="{{ "/projects" | relative_url }}">projects</a> and <a href="{{ "/research" | relative_url }}">research</a> pages. Make sure the questions we work on are ones you actually want to spend your time on.</p>
+  </div>
+  <div class="step">
+    <span class="step-number">2</span>
+    <span class="step-title">Review our expectations</span>
+    <p>Read the <a href="https://docs.google.com/document/d/1Oc43plLjfN_RZUZMSo-EXqYnJva2aBJNaZ7StTrD-JQ/edit?usp=sharing">Expectations Document</a>. It covers how we work together, how project ownership is handled, and our project release policy. Joining means you have read it and agree to it.</p>
+  </div>
+  <div class="step">
+    <span class="step-number">3</span>
+    <span class="step-title">Submit the interest form</span>
+    <p>A lab member reviews every submission. We will email you to set up a Zoom conversation if your background looks like a good fit.</p>
+  </div>
+</div>
 
-Begin by exploring our projects on the [DRL website](https://dynamicrealitylab.com/). Ensure our research focus aligns with your goals, and that your workflow fits our lab culture.
+{%
+  include button.html
+  link="https://forms.gle/QrrC1ytTcdz8eCjq9"
+  text="Interest Form"
+%}
 
-**2. Review Lab Expectations**
+{% capture alert %}
+A completed interest form is required before we can move forward with anyone. Questions before you apply are welcome at [dynamicrealitylab@gmail.com](mailto:dynamicrealitylab@gmail.com).
+{% endcapture %}
 
-Please carefully read the [Expectations Document](https://docs.google.com/document/d/1Oc43plLjfN_RZUZMSo-EXqYnJva2aBJNaZ7StTrD-JQ/edit?usp=sharing). This document outlines the standards and collaborative spirit we maintain within the lab. By joining the lab, you acknowledge that you understand and agree to these expectations, project ownership terms, and the project release policy.
+{% include alert.html type="info" content=alert %}
 
-**3. Submit the Interest Form**
+{% capture col1 %}
 
-To be considered for an interview, all prospective students must complete our [application form](https://forms.gle/QrrC1ytTcdz8eCjq9).
+### Prospective PhD Students
+
+Every PhD student here is fully funded. Under the supervision of Dr. You-Jin Kim, students receive a monthly stipend of **$2,800** paid year-round, including summers, along with full health insurance and complete tuition remission at both in-state and out-of-state rates.
+
+For local context, a one-bedroom loft in downtown Lincoln runs about $1,090 per month as of April 2026. Our students can live comfortably on the stipend and keep their attention on the research.
+
+{% endcapture %}
+
+{% capture col2 %}
+
+### Undergraduate and Current UNL Students {#unl-students}
+
+We regularly bring UNL students onto active projects. Start with the same [interest form](https://forms.gle/QrrC1ytTcdz8eCjq9), and reach out to any lab member whose work interests you.
+
+- **Research is not coursework.** There is no syllabus and no set of expected answers. You develop your own direction, with guidance from a mentor.
+- **Classes are still a good entry point.** Spatial Interaction and Simulation, Generative AI and Design, Computer Graphics, Wide-Area AR + Interactive Narrative, or Advanced Topics in Software Engineering all lead somewhere.
+- **Do a little homework on us.** Read our recent publications, see what the PhD students are working on, then contact the people whose projects interest you.
+- **Be specific.** Tell us what you want to work on, which project, and roughly how many hours a week you can commit.
+
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html %}
 
-{% include figure.html image="images/home/banner.png" %}
+## Lab Logo
+
+Our logo is available for press, posters, slides, and collaborations. Pick the version that matches your background color.
+
+<div class="logo-downloads">
+  <div class="logo-download" data-bg="light">
+    <img src="{{ "/images/logos/DRL_white_background_full.png" | relative_url }}" alt="Dynamic Reality Lab full logo for light backgrounds">
+    <a href="{{ "/images/logos/DRL_white_background_full.png" | relative_url }}" download>Full logo, light background (PNG)</a>
+  </div>
+  <div class="logo-download" data-bg="light">
+    <img src="{{ "/images/logos/DRL_white_background_drl.png" | relative_url }}" alt="DRL monogram logo for light backgrounds">
+    <a href="{{ "/images/logos/DRL_white_background_drl.png" | relative_url }}" download>DRL mark, light background (PNG)</a>
+  </div>
+  <div class="logo-download" data-bg="dark">
+    <img src="{{ "/images/logos/DRL_black_background_full.png" | relative_url }}" alt="Dynamic Reality Lab full logo for dark backgrounds">
+    <a href="{{ "/images/logos/DRL_black_background_full.png" | relative_url }}" download>Full logo, dark background (PNG)</a>
+  </div>
+  <div class="logo-download" data-bg="dark">
+    <img src="{{ "/images/logos/DRL_black_background_drl.png" | relative_url }}" alt="DRL monogram logo for dark backgrounds">
+    <a href="{{ "/images/logos/DRL_black_background_drl.png" | relative_url }}" download>DRL mark, dark background (PNG)</a>
+  </div>
+</div>
+
+Need another format? The [full logo pack](https://app.box.com/s/2dhisf5ewn98reisb9hf7xutzku3ylfb) has the complete set.
+
+{% include section.html %}
+
+{% include figure.html image="images/home/banner.png" width="100%" %}

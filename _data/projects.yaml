@@ -3,109 +3,109 @@
   group: featured
   image: images/projects/saber.png
   link: https://www.yujnkm.com/projects/saber
-  description: Unveils analytical metrics for EEG spatial attention research, providing precise frameworks to measure and evaluate human engagement within virtual environments.
+  description: Analytical metrics for EEG-based spatial attention research, giving researchers a concrete way to measure engagement inside virtual environments.
 
 - title: On the Go with AR
   subtitle: "ACM CHI 2025 - Yokohama, Japan"
   group: featured
   image: images/projects/on-the-go-with-ar.jpg
   link: https://www.yujnkm.com/projects/on-the-go-with-ar
-  description: Demonstrated how AR task demands fundamentally alter environmental awareness, forcing users to split focus between physical and virtual elements.
+  description: AR task demands change what people notice around them. This study traced how attention splits between physical surroundings and virtual content while on the move.
 
 - title: NeuResonance
   subtitle: "ACM CHI 2025 - Yokohama, Japan"
   group: featured
   image: images/projects/neuresonance.png
   link: https://www.yujnkm.com/projects/neuresonance
-  description: Explores multimodal feedback and demonstrates how consistently it enhances inter-brain synchronization compared to single-modality visual or haptic feedback systems.
+  description: Multimodal feedback improved inter-brain synchronization more than visual or haptic feedback did on its own.
 
 - title: Beyond Reality
   subtitle: "PhD Dissertation - Santa Barbara, California"
   group: featured
   image: images/projects/beyond-reality.png
   link: https://www.yujnkm.com/projects/beyond-reality
-  description: Evaluates experimental approaches that can enrich interactive narrative immersive experiences while contributing to scientific understanding of attention and other factors.
+  description: A dissertation on what makes interactive narrative in immersive experiences richer, and on the role attention and related factors play in it.
 
 - title: Audience Amplified
   subtitle: "IEEE ISMAR 2024 - Bellevue, Seattle"
   group: featured
   image: images/projects/audience-amplified.jpg
   link: https://www.yujnkm.com/projects/audience-amplified
-  description: Provides a robust proof-of-concept for capturing physical spatial behavior through reinforcement learning to deploy adaptive and responsive AR virtual avatars.
+  description: A proof of concept for capturing physical spatial behavior with reinforcement learning, then driving responsive AR avatars from what it learns.
 
 - title: Reality Distortion Room
   subtitle: "IEEE ISMAR 2023 - Sydney, Australia"
   group: featured
   image: images/projects/reality-distortion-room.jpg
   link: https://www.yujnkm.com/projects/reality-distortion-room
-  description: Demonstrates that precise visual distortions predictably guide natural human movement through physical spaces without relying on explicit verbal or written prompts.
+  description: Small, deliberate visual distortions can steer how people walk through a room, without a word of verbal or written instruction.
 
 - title: Dynamic Theater
   subtitle: "ACM VRST 2023 - Christchurch, New Zealand"
   group: featured
   image: images/projects/dynamic-theater.png
   link: https://www.yujnkm.com/projects/dynamic-theater
-  description: Shows how Content Zones curate interactive narrative experiences, delivering consistent storytelling tailored to individual user pacing while viewing augmented content.
+  description: Content Zones let an interactive narrative follow each viewer's own pace while keeping the story itself consistent across augmented content.
 
 - title: JourneyReplay
   subtitle: "ACM CHI 2023 - Hamburg, Germany"
   group: featured
   image: images/projects/journey-replay.jpg
   link: https://www.yujnkm.com/projects/journeyreplay
-  description: Recreates full field-of-view visual playback alongside digital twins to thoroughly analyze spatial context and understand exact drivers behind user behavior.
+  description: Full field-of-view playback paired with digital twins, so spatial context and the reasons behind user behavior can be reviewed after the session.
 
 - title: FractalBrain
   subtitle: "ACM CHI 2024 - Honolulu, Hawaiʻi"
   group: featured
   image: images/projects/fractal-brain.jpg
   link: https://www.yujnkm.com/projects/fractalbrain
-  description: Proves that fractal-inspired visual stimuli maximize frontal alpha brainwave responses, successfully inducing deeply relaxed and calm mental states in active users.
+  description: Fractal-inspired visual stimuli drew the strongest frontal alpha response we measured, and left participants in a noticeably calmer state.
 
 - title: Spatial Orchestra
   subtitle: "ACM CHI 2024 - Honolulu, Hawaiʻi"
   group: featured
   image: images/projects/spatial-orchestra.jpg
   link: https://www.yujnkm.com/projects/spatial-orchestra
-  description: Maps human gait directly to audio synthesis, allowing intuitive musical expression and sound creation through physical movement like stepping on dynamic bubbles.
+  description: Gait becomes sound. Stepping through virtual bubbles drives audio synthesis, turning ordinary movement into musical expression.
 
 - title: Virtual Campus
   subtitle: "IEEE ISMAR 2022 - Singapore"
   group: featured
   image: images/projects/virtual-campus.jpg
   link: https://www.yujnkm.com/projects/virtual-campus
-  description: Presents a technical pipeline preserving precise spatial architectural records, establishing reliable long-term digital documentation for heritage conservation.
+  description: A capture pipeline for detailed architectural records, built for long-term digital documentation in heritage conservation.
 
 - title: World Tracer
   subtitle: "Nokia Bell Labs - Murray Hill, New Jersey"
   group: featured
   image: images/projects/world-tracer.jpg
   link: https://www.yujnkm.com/projects/world-tracer
-  description: Establishes a continuous learning pipeline where simulations update alongside physical environments, dynamically optimizing multi-robot speeds across spatial zones.
+  description: A continuous learning loop where the simulation updates alongside the physical environment, tuning multi-robot speeds zone by zone.
 
 - title: Wide-area AR 2
   subtitle: "ACM CHI 2023 - Hamburg, Germany"
   group: featured
   image: images/projects/wide-area-ar-2.png
   link: https://www.yujnkm.com/projects/wide-area-ar-2
-  description: Evaluates 3D spatial AR navigation cues against traditional map cues to measure visual search efficiency and determine ideal deployment scenarios across environments.
+  description: A comparison of 3D spatial AR navigation cues against conventional map cues, measuring visual search efficiency and where each one works best.
 
 - title: Wide-area AR 1
   subtitle: "IEEE TVCG 2022 - Singapore"
   group: featured
   image: images/projects/wide-area-ar-1.jpg
   link: https://www.yujnkm.com/projects/wide-area-ar-1
-  description: Investigates outdoor search performance by measuring cognitive load, spatial learning, and lighting impacts when locating virtual items hidden behind objects.
+  description: Outdoor search performance under changing light, measured through cognitive load and spatial learning as users hunt for virtual items hidden behind real objects.
 
 - title: Climate Simulation
   subtitle: "ACM SIGGRAPH SPARKS - Seoul, Korea"
   group: featured
   image: images/projects/climate-simulation.jpg
   link: https://www.yujnkm.com/projects/climate-simulation
-  description: Demonstrates the practical feasibility of interactive outdoor AR narratives designed to convincingly convey the true scale of major environmental events.
+  description: An interactive outdoor AR narrative built to convey the scale of major environmental events at something close to their real size.
 
 - title: ATLAS
   subtitle: "Magic Leap Developer - Plantation, Florida"
   group: featured
   image: images/projects/atlas.png
   link: https://www.yujnkm.com/projects/atlas
-  description: Reimagines large-scale AR interactions using clever spatial design to maximize immersion and overcome hardware field-of-view limits in everyday indoor spaces.
+  description: Large-scale AR interaction in ordinary indoor rooms, using spatial design to work around the field-of-view limits of current headsets.

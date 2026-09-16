@@ -1,18 +1,18 @@
 ---
 ---
 
-The Dynamic Reality Lab (DRL), directed by [Prof. You-Jin Kim](https://www.yujnkm.com/home), explores how we can enhance human interaction in the physical world through spatial computing and wide-area augmented reality. Towards our goal of more human-centered computing, we believe next-generation interfaces must seamlessly blend digital intelligence into physical environments while remaining deeply grounded in human perception, cognition, and behavior.
+The Dynamic Reality Lab (DRL), directed by [Prof. You-Jin Kim](https://www.yujnkm.com/home), studies how spatial computing and wide-area augmented reality can improve the way people interact with the physical world. We think the interfaces that come next will have to put digital information into real environments without losing track of how people actually perceive, think, and move.
 
-We deploy advanced sensing technologies, including EEG, EMG, and eye-tracking, to interpret real-time physiological signals and cognitive states, optimizing how users interact within extended reality (XR). Our research leverages spatial computing and adaptive interfaces to support richer immersive environments, spatial collaboration, and intelligent interaction design. To achieve these goals, we utilize a design process grounded in iterative prototyping, system development, and controlled empirical studies to build a deeper understanding of human performance and interaction in wide-area XR.
+We use sensing hardware such as EEG, EMG, and eye tracking to read physiological signals and cognitive states as they happen, then use what we learn to improve how people work inside extended reality (XR). That work spans adaptive interfaces, spatial collaboration, and interaction design for immersive environments. Our process is iterative: we prototype, build working systems, and run controlled studies to understand human performance in wide-area XR.
 
-The Dynamic Reality Lab is housed in the [School of Computing](https://computing.unl.edu/person/you-jin-kim/), College of Engineering at the University of Nebraska–Lincoln, working at the intersection of human-computer interaction, artificial intelligence, augmented reality, cognitive science, neuroscience and physics simulation.
+The lab is part of the [School of Computing](https://computing.unl.edu/person/you-jin-kim/) in the College of Engineering at the University of Nebraska–Lincoln, and our work draws on human-computer interaction, artificial intelligence, augmented reality, cognitive science, neuroscience, and physics simulation.
 
 {% include section.html %}
 
 ## Research Areas
 
 {% capture text %}
-Our research investigates the technical and spatial challenges of **wide-area outdoor AR** at scales exceeding three football fields. Moving beyond room-scale constraints, this work develops robust geospatial anchoring and persistent world-mapping to ensure digital stability across expansive, unstructured landscapes. By engineering the infrastructure for massive-scale spatial computing, we enable seamless digital-physical integration that remains consistent for multiple users in real-world environments.
+We work on the technical and spatial problems of **wide-area outdoor AR** across areas larger than three football fields. Room-scale AR can assume a small, controlled space; outdoors we cannot, so this work focuses on geospatial anchoring and persistent world mapping that hold content in place across large, unstructured terrain. The goal is AR that stays put and stays consistent for several users at once, out in real environments rather than in a lab.
 {% endcapture %}
 
 {%
@@ -24,7 +24,7 @@ Our research investigates the technical and spatial challenges of **wide-area ou
 %}
 
 {% capture text %}
-To optimize the user experience within complex AR environments, our lab integrates **multimodal sensors**, including **EEG and eye-tracking**. We study how spatial awareness, attention, and memory are impacted by augmented overlays, using real-time biometric data to monitor and manage **cognitive load**. By developing adaptive "cognitive cues," this research seeks to create intelligent interfaces that dynamically synchronize information delivery with the user's internal mental state.
+Complex AR environments ask a lot of the people using them, so we bring **multimodal sensors**, including **EEG and eye tracking**, into our studies. We look at how augmented overlays change spatial awareness, attention, and memory, and we use live biometric data to track **cognitive load** as it shifts. From there we design adaptive "cognitive cues" that time information to what the user can take in at that moment.
 {% endcapture %}
 
 {%
@@ -36,7 +36,7 @@ To optimize the user experience within complex AR environments, our lab integrat
 %}
 
 {% capture text %}
-This research transforms **immersive theater** and interactive narratives by integrating **Deep Neural Networks (DNN)** and Avatar AI agents. We explore how AI-powered avatars can enrich digital experiences, making them feel more "live," connected, and human. By aligning intelligent agents with expressive avatar formats, our lab creates responsive environments that adapt to user presence and sentiment, ultimately expanding the boundaries of human expressiveness in digital performance.
+This line of work brings **deep neural networks** and avatar AI agents into **immersive theater** and interactive narrative. We are interested in whether AI-driven avatars can make a digital experience feel live and present rather than pre-recorded. Pairing intelligent agents with expressive avatars lets us build environments that respond to who is in the room and how they are reacting, which opens up new ground for performance in digital space.
 {% endcapture %}
 
 {%
@@ -72,13 +72,13 @@ This research transforms **immersive theater** and interactive narratives by int
 ## DRL Activities
 
 - **August 2026:** Our new IEEE TVCG journal paper will be presented at ISMAR 2026 in Bari, Italy.
-- **June 2026:** Our LiDAR digital-twin scanning effort was featured on local newspaper front page! 📰
-- **May 2026:** Welcoming four new full-time students to the research team on May 18, 2026.
+- **June 2026:** Our LiDAR digital-twin scanning work made the front page of the local newspaper! 📰
+- **May 2026:** Four new full-time students joined the research team on May 18, 2026.
 - **April 2026:** Presented at the ACM CHI 2026, Augmented Reality On-the-Move workshop.
 - **March 2026:** Presented SABER (Spatial Attention & Brain + XR) research at IEEE VR.
 - **February 2026:** Presented at the Nebraska, School of Computing PhD Students Session seminar.
 - **January 2026:** Lab operations successfully relocated to a newly renovated Nebraska Hall.
-- **November 2025:** Received award 🏆 at ACM MobiHoc for mobile AR cognitive security research.
+- **November 2025:** Received an award 🏆 at ACM MobiHoc for our mobile AR cognitive security research.
 - **October 2025:** Presented "Beyond Reality" at the ATLAS Colloquium, CU Boulder.
 
 {% capture col1 %}
@@ -97,4 +97,4 @@ This research transforms **immersive theater** and interactive narratives by int
 
 {% include section.html %}
 
-{% include figure.html image="images/home/banner.png" %}
+{% include figure.html image="images/home/banner.png" width="100%" %}

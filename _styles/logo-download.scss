@@ -1,0 +1,41 @@
+---
+---
+
+.logo-downloads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.logo-download {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+// the logos are transparent PNGs, so each preview needs the background the
+// variant was drawn for
+.logo-download img {
+  width: 100%;
+  padding: 20px;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  object-fit: contain;
+  aspect-ratio: 3 / 1;
+}
+
+.logo-download[data-bg="light"] img {
+  background: #ffffff;
+}
+
+.logo-download[data-bg="dark"] img {
+  background: #181818;
+}
+
+.logo-download a {
+  font-size: 0.9rem;
+  line-height: var(--compact);
+}

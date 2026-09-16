@@ -25,19 +25,33 @@
 }
 
 .card[data-style="project"] .card-text {
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
   gap: 8px;
-  padding: 12px 20px 16px;
+  padding: 16px 20px 20px;
+  text-align: left;
   line-height: var(--compact);
 }
 
+.card[data-style="project"] .card-title {
+  font-size: var(--large);
+}
+
+// venue/location line: small caps-ish accent, so the eye lands on it before the
+// description without shouting
 .card[data-style="project"] .card-subtitle {
   margin-top: 0 !important;
-  font-size: 0.85rem;
-  color: var(--dark-gray);
+  font-size: 0.75rem;
+  font-weight: var(--semi-bold);
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary);
 }
 
 .card[data-style="project"] p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--dark-gray);
 }
 
@@ -45,10 +59,20 @@
   width: 250px;
 }
 
+// the image link is a flex item under `align-items: center`, so without an
+// explicit stretch it shrink-wraps to the image's intrinsic width -- images
+// narrower than the card then render a short, undersized card
+.card-image {
+  display: block;
+  align-self: stretch;
+  width: 100%;
+}
+
 .card-image img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   width: 100%;
+  max-height: none;
   // box-shadow: var(--shadow);
 }
 

@@ -12,9 +12,22 @@ nav:
 
 <hr />
 
-{% include portrait.html lookup="lijun-mao" %}
-{% include portrait.html lookup="thomas-marxsen" %}
-{% include portrait.html lookup="everett-wahlqvist-hardy" %}
+<!--
+  Members are listed by role, in the order below. To add someone new, set their
+  `role` in _members/<name>.md; they will appear in the right group automatically.
+  Order: PhD -> postdoc -> master's -> research staff -> undergraduate.
+-->
+
+{% include list.html data="members" component="portrait"
+  filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'grad'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'staff'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'undergrad'" %}
 
 <hr />
 
