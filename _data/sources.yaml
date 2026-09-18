@@ -3,3 +3,5 @@
 # The research page does NOT read this file -- it renders _data/publications.yaml,
 # which is maintained by hand. This is left empty on purpose; the template's demo
 # entries (greenelab/meta-review and friends) were removed.
+
+[]
