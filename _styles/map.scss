@@ -12,4 +12,13 @@
   border: 0;
   border-radius: var(--rounded);
   box-shadow: var(--shadow);
+  // spinner behind the frame, shown until the map paints over it. The gif
+  // has a solid background, so there's a version per theme, with the box
+  // filled to match
+  background: #ffffff url("../images/contact/loading.gif") center no-repeat;
+}
+
+[data-dark="true"] .map {
+  background: #181818 url("../images/contact/loading-dark.gif") center
+    no-repeat;
 }
