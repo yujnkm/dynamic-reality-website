@@ -1,0 +1,55 @@
+{% comment %}
+  search box plus tag filter chips for the research page, grouped by the
+  `filters` list in the page's front matter. any tag not named in a group
+  lands in the last "Topic" group, most common first. chips are plain links,
+  so filtering still works without js; _scripts/tag-filter.js makes them
+  toggle in place instead.
+{% endcomment %}
+
+{% assign pubs = include.data %}
+
+{% comment %} every tag used, one entry per use, for counting {% endcomment %}
+{% assign all = "" | split: "" %}
+{% for pub in pubs %}
+  {% assign all = all | concat: pub.tags %}
+{% endfor %}
+{% assign unique = all | uniq %}
+
+{% comment %} tags already claimed by a named group {% endcomment %}
+{% assign grouped = "" | split: "" %}
+{% for group in page.filters %}
+  {% assign grouped = grouped | concat: group.tags %}
+{% endfor %}
+
+{% comment %}
+  remaining tags, sorted by count descending. key is (1000 - count) so a
+  plain string sort puts the most common first
+{% endcomment %}
+{% assign keyed = "" | split: "" %}
+{% for tag in unique %}
+  {% unless grouped contains tag %}
+    {% assign n = 0 %}
+    {% for t in all %}{% if t == tag %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+    {% assign key = 1000 | minus: n | append: "|" | append: tag %}
+    {% assign keyed = keyed | push: key %}
+  {% endunless %}
+{% endfor %}
+{% assign topics = "" | split: "" %}
+{% assign keyed = keyed | sort %}
+{% for key in keyed %}
+  {% assign tag = key | split: "|" | last %}
+  {% assign topics = topics | push: tag %}
+{% endfor %}
+
+<div class="pub-filters">
+  {% include search-box.html %}
+
+  {% for group in page.filters %}
+    {% include publication-filter-row.html label=group.label tags=group.tags all=all %}
+  {% endfor %}
+  {% if topics.size > 0 %}
+    {% include publication-filter-row.html label="Topic" tags=topics all=all %}
+  {% endif %}
+
+  {% include search-info.html %}
+</div>

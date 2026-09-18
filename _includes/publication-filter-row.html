@@ -1,0 +1,24 @@
+{% comment %}
+  one labeled row of filter chips. the count sits in a data attribute and is
+  drawn with css, so the chip's text stays exactly the tag name (search.js
+  matches tags on text)
+{% endcomment %}
+
+<div class="pub-filter-row">
+  <span class="pub-filter-label">{{ include.label }}</span>
+  <div class="pub-filter-chips">
+    {% for tag in include.tags %}
+      {% assign n = 0 %}
+      {% for t in include.all %}{% if t == tag %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+      {% if n > 0 %}
+        {% assign slug = tag | downcase | replace: " ", "-" %}
+        <a
+          href="?search=&quot;tag: {{ slug }}&quot;"
+          class="tag pub-filter-chip"
+          data-count="{{ n }}"
+          aria-label="{{ tag }}, {{ n }} {% if n == 1 %}publication{% else %}publications{% endif %}"
+        >{{ tag }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

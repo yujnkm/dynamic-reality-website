@@ -86,7 +86,11 @@
     {% if pub.tags %}
       <div class="publication-tags">
         {% for tag in pub.tags %}
-          <span class="publication-tag">{{ tag }}</span>
+          {% assign slug = tag | downcase | replace: " ", "-" %}
+          <a
+            href="?search=&quot;tag: {{ slug }}&quot;"
+            class="tag publication-tag"
+          >{{ tag }}</a>
         {% endfor %}
       </div>
     {% endif %}
