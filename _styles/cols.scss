@@ -30,6 +30,12 @@ $one: 500px;
   .cols {
     --repeat: min(2, var(--cols));
   }
+
+  // side-by-side columns are only ~200-300px wide here, too narrow for
+  // justified text to space evenly
+  .cols :is(p, li) {
+    text-align: left;
+  }
 }
 
 @media (max-width: $one) {

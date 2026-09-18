@@ -22,7 +22,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ member.name | default: "member" | append: " portrait" | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
     >

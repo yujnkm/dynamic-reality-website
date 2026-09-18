@@ -1,6 +1,6 @@
 ---
 name: Thomas Marxsen
-image: images/members/thomas-marxsen.png
+image: images/members/thomas-marxsen.jpg
 role: staff
 description: |
   Research Specialist II

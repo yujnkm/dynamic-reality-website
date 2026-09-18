@@ -50,21 +50,21 @@ This line of work brings **deep neural networks** and avatar AI agents into **im
 {% include section.html %}
 
 {% capture col1 %}
-{% include figure.html image="images/home/lab-digital-twin.png" %}
+{% include figure.html image="images/home/lab-digital-twin.jpg" alt="3D digital twin model of the lab rooms" %}
 {% endcapture %}
 
 {% capture col2 %}
-{% include figure.html image="images/home/lab-projection-room.png" %}
+{% include figure.html image="images/home/lab-projection-room.jpg" alt="Lab projection room with a glowing grid projected on the walls" %}
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include figure.html image="images/home/wide-area-ar.jpg" %}
+{% include figure.html image="images/home/wide-area-ar.jpg" alt="Map of the 1,456 square meter outdoor area used for wide-area AR experiments" %}
 
 {%
   include button.html
   link="https://www.yujnkm.com/projects/user-study"
-  text="Current Project"
+  text="Current Projects"
 %}
 
 {% include section.html %}
@@ -82,19 +82,19 @@ This line of work brings **deep neural networks** and avatar AI agents into **im
 - **October 2025:** Presented "Beyond Reality" at the ATLAS Colloquium, CU Boulder.
 
 {% capture col1 %}
-{% include figure.html image="images/photos/group-01.jpg" %}
+{% include figure.html image="images/photos/group-01.jpg" alt="Lab members together at an outdoor event" %}
 {% endcapture %}
 
 {% capture col2 %}
-{% include figure.html image="images/photos/group-02.jpg" %}
+{% include figure.html image="images/photos/group-02.jpg" alt="Lab members in front of the Nebraska N sign" %}
 {% endcapture %}
 
 {% capture col3 %}
-{% include figure.html image="images/photos/group-03.jpg" %}
+{% include figure.html image="images/photos/group-03.jpg" alt="Lab members with a dog in the lab" %}
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
 
 {% include section.html %}
 
-{% include figure.html image="images/logos/banner.png" width="100%" %}
+{% include partner-logos.html %}

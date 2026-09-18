@@ -2,7 +2,7 @@
 # authors: use **name** to bold a lab member
 
 - title: Exploring Object Recall in an Object-Rich AR Office Scene
-  image: images/research/object-recall-ar-office.png
+  image: images/research/object-recall-ar-office.jpg
   authors: Sangita Kunapuli, Shane Dirksen, Radha Kumaran, **You-Jin Kim**, Misha Sra, Tobias Höllerer
   venue: IEEE Transactions on Visualization and Computer Graphics
   short: IEEE TVCG 2026
@@ -20,7 +20,7 @@
   tags: [Journal Paper, Magic Leap 2, AR, Memory Recall, Visual Saliency, Visual Cue]
 
 - title: "Moving Beyond the Flat Screen: Opportunities and Challenges of Extended Reality for Studying Human Brain and Behaviors"
-  image: images/research/beyond-flat-screen.png
+  image: images/research/beyond-flat-screen.jpg
   authors: Tom Bullock, Radha Kumaran, **You-Jin Kim**, Emily Machniak, Tobias Höllerer and Barry Giesbrecht
   venue: IEEE International Symposium on Mixed and Augmented Reality
   short: IEEE ISMAR 2026
@@ -33,7 +33,7 @@
   tags: [Short Paper, Navigation, XR, Education, Visual Cue, Switching Modality]
 
 - title: Challenges and Opportunities for Head-Worn AR Use in Wide-Area Environments
-  image: images/research/challenges-ar-wide-area.png
+  image: images/research/challenges-ar-wide-area.jpg
   authors: Radha Kumaran, **You-Jin Kim**, Shane Dirksen, Tom Bullock, Barry Giesbrecht, and Tobias Höllerer
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2026
@@ -47,7 +47,7 @@
   tags: [Workshop, Magic Leap 2, AR, Wide-area, Navigation, Visual Cue]
 
 - title: "SABER: Spatial Attention, Brain, Extended Reality"
-  image: images/research/saber.png
+  image: images/research/saber.jpg
   authors: Tom Bullock, Emily Machniak, **You-Jin Kim**, Radha Kumaran, Justin Kasowski, Apurv Varshney, Julia Ram, Melissa M. Hernandez, Stina Johansson, Neil M. Dundon, Tobias Höllerer, Barry Giesbrecht
   venue: IEEE Conference on Virtual Reality and 3D User Interfaces
   short: IEEE VR 2026
@@ -67,7 +67,7 @@
   tags: [Full Paper, Vive Pro Eye, VR, Visual Cue, Visual Saliency, Memory Recall]
 
 - title: Modeling Object Attention in Mobile AR for Intrinsic Cognitive Security
-  image: images/research/object-attention-ar.png
+  image: images/research/object-attention-ar.jpg
   authors: Shane Dirksen, Radha Kumaran, **You-Jin Kim**, Yilin Wang, Tobias Höllerer
   venue: ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
   short: ACM MobiHoc 2025
@@ -86,7 +86,7 @@
   tags: [Short Paper, Magic Leap 2, AR, Visual Saliency, Visual Cue, Navigation]
 
 - title: Scene Awareness While Using Multiple Navigation Aids in AR Search
-  image: images/research/scene-awareness-navigation-aids.png
+  image: images/research/scene-awareness-navigation-aids.jpg
   authors: Radha Kumaran, **You-Jin Kim**, Emily Machniak, Shane Dirksen, Junhyung Yoon, Tom Bullock, Barry Giesbrecht, Tobias Höllerer
   venue: IEEE International Symposium on Mixed and Augmented Reality
   short: IEEE ISMAR 2025
@@ -105,7 +105,7 @@
   tags: [Short Paper, HoloLens 2, AR, Navigation, Visual Cue, Memory Recall]
 
 - title: Reconstructing moving object locations in an immersive 3D virtual environment from EEG oscillatory activity
-  image: images/research/reconstructing-moving-object-locations.png
+  image: images/research/reconstructing-moving-object-locations.jpg
   authors: Tom Bullock, Emily Machniak, Neil Dundon, Justin Kasowski, **You-Jin Kim**, Radha Kumaran, Julia Ram, Melissa Hernandez, Stina Johansson, Tobias Höllerer, Barry Giesbrecht
   venue: The Association for Research in Vision and Ophthalmology
   short: Journal of Vision 2025
@@ -123,7 +123,7 @@
   tags: [Journal Paper, Meta Quest 3, VR, Memory Recall, Visual Saliency, Visual Cue]
 
 - title: Electrophysiological evidence for differential semantic processing of words and objects presented in augmented reality
-  image: images/research/EEG-semantic-processing.png
+  image: images/research/EEG-semantic-processing.jpg
   authors: Tom Bullock, Emily Machniak, Joyce Passananti, Kangyou Yu, Radha Kumaran, **You-Jin Kim**, Jordan Garrett, Madhav Viswesvaran, Julia Ram, Tobias Höllerer, Barry Giesbrecht
   venue: Elsevier, Computers in Human Behavior Reports
   short: Elsevier CHBR 2025
@@ -140,7 +140,7 @@
   tags: [Journal Paper, Magic Leap 2, AR, Visual Cue, Memory Recall, Education]
 
 - title: "On the Go with AR: Attention to Virtual and Physical Targets while Varying Augmentation Density"
-  image: images/research/on-the-go-with-ar.png
+  image: images/research/on-the-go-with-ar.jpg
   authors: "**You-Jin Kim**, Radha Kumaran, Jingjing Luo, Tom Bullock, Barry Giesbrecht, and Tobias Höllerer"
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2025
@@ -159,7 +159,7 @@
   tags: [Full Paper, HoloLens 2, AR, Wide-area, Navigation, Visual Saliency]
 
 - title: "NeuResonance: Exploring Feedback Experiences for Fostering the Inter-brain Synchronization"
-  image: images/research/neuresonance.png
+  image: images/research/neuresonance.jpg
   authors: Jamie Ngoc Dinh, Snehesh Shrestha, **You-Jin Kim**, Jun Nishida, Myungin Lee
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2025
@@ -178,7 +178,7 @@
   tags: [Full Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue]
 
 - title: "Demonstrating NeuResonance: Inter-brain Synchronization and Feedback Modalities in Collaboration"
-  image: images/research/demonstrating-neuresonance.png
+  image: images/research/demonstrating-neuresonance.jpg
   authors: Jamie Ngoc Dinh, Snehesh Shrestha, **You-Jin Kim**, Jun Nishida, Myungin Lee
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2025
@@ -198,7 +198,7 @@
   tags: [Short Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue]
 
 - title: "Beyond Reality: Designing Personal Experiences and Interactive Narratives in AR Theater"
-  image: images/research/beyond-reality.png
+  image: images/research/beyond-reality.jpg
   authors: "**You-Jin Kim**"
   venue: University of California, Santa Barbara
   short: Dissertation 2024
@@ -217,7 +217,7 @@
   tags: [Dissertation, SAR, Navigation, Wide-area, Interactive Narrative, AI-Agent]
 
 - title: "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater"
-  image: images/research/audience-amplified.png
+  image: images/research/audience-amplified.jpg
   authors: "**You-Jin Kim**, Misha Sra, and Tobias Höllerer"
   venue: IEEE International Symposium on Mixed and Augmented Reality
   short: IEEE ISMAR 2024
@@ -236,7 +236,7 @@
   tags: [Full Paper, HoloLens 2, AR, AI-Agent, Multiplayers, Interactive Narrative]
 
 - title: "FractalBrain: A Neuro-interactive Virtual Reality Experience using Electroencephalogram (EEG) for Mindfulness"
-  image: images/research/fractalbrain.png
+  image: images/research/fractalbrain.jpg
   authors: Jamie Ngoc Dinh, **You-Jin Kim**, Myungin Lee
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2024
@@ -256,7 +256,7 @@
   tags: [Short Paper, Meta Quest 3, VR, EEG, Switching Modality, Visual Cue]
 
 - title: "Spatial Orchestra: Locomotion Music Instruments through Spatial Exploration"
-  image: images/research/spatial-orchestra.png
+  image: images/research/spatial-orchestra.jpg
   authors: "**You-Jin Kim**, Myungin Lee, JoAnn Kuchera-Morin, and Tobias Höllerer"
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2024
@@ -276,7 +276,7 @@
   tags: [Short Paper, HoloLens 2, AR, Interactive Narrative, Visual Cue, Education]
 
 - title: "Reality Distortion Room: A Study of User Locomotion Responses to Spatial Augmented Reality Effects"
-  image: images/research/reality-distortion-room.png
+  image: images/research/reality-distortion-room.jpg
   authors: "**You-Jin Kim**, Andrew D Wilson, Jennifer Jacobs, and Tobias Höllerer"
   venue: IEEE International Symposium on Mixed and Augmented Reality
   short: IEEE ISMAR 2023
@@ -295,7 +295,7 @@
   tags: [Full Paper, SAR, Visual Cue, Navigation, Blended Experience, Cognitive Study]
 
 - title: "Dynamic Theater: Location-Based Immersive Dance Theater, Investigating User Guidance and Experience"
-  image: images/research/dynamic-theater.png
+  image: images/research/dynamic-theater.jpg
   authors: "**You-Jin Kim**, Joshua Lu, and Tobias Höllerer"
   venue: ACM Symposium on Virtual Reality Software and Technology
   short: ACM VRST 2023
@@ -314,7 +314,7 @@
   tags: [Full Paper, HoloLens 2, AR, Interactive Narrative, Wide-area, Navigation]
 
 - title: The Impact of Navigation Aids on Search Performance and Object Recall in Wide-Area Augmented Reality
-  image: images/research/impact-navigation-aids.png
+  image: images/research/impact-navigation-aids.jpg
   authors: Radha Kumaran, **You-Jin Kim**, A Milner, Tom Bullock, Barry Giesbrecht, and Tobias Höllerer
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2023
@@ -333,7 +333,7 @@
   tags: [Full Paper, HoloLens 2, AR, Navigation, Wide-area, Memory Recall]
 
 - title: Investigating Search Among Physical and Virtual Objects Under Different Lighting Conditions
-  image: images/research/search-lighting-conditions.png
+  image: images/research/search-lighting-conditions.jpg
   authors: "**You-Jin Kim**, Radha Kumaran, Ehsan Sayyad, A Milner, Tom Bullock, Barry Giesbrecht, and Tobias Höllerer"
   venue: IEEE Transactions on Visualization and Computer Graphics
   short: IEEE TVCG 2022
@@ -352,7 +352,7 @@
   tags: [Journal Paper, HoloLens 2, AR, Navigation, Wide-area, Visual Saliency]
 
 - title: Exploring Immersive Mixed Reality Simulations and Its Impact on Climate Change Awareness
-  image: images/research/mr-simulation.png
+  image: images/research/mr-simulation.jpg
   authors: Zhaozhong Wang and **You-Jin Kim**
   venue: Asian Journal of Applied Science and Engineering, Volume 12, ISSN 2307-9584
   short: AJASE 2022

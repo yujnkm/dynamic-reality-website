@@ -24,6 +24,10 @@ footer .icon {
   font-size: var(--xl);
 }
 
+footer .button[data-style="bare"] {
+  padding: 10px;
+}
+
 footer.background {
   background-color: #282828;
   background-size: cover;

@@ -70,8 +70,8 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   margin: 0;
   color: var(--text);
   appearance: none;
@@ -84,7 +84,7 @@ header a {
   left: 50%;
   top: 50%;
   color: var(--text);
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
@@ -127,7 +127,13 @@ header:not([data-big]) {
     nav {
       align-items: flex-end;
       flex-direction: column;
+      gap: 0;
       width: 100%;
+    }
+
+    // taller rows so each link is a comfortable thumb target
+    nav > a {
+      padding: 12px 5px;
     }
   }
 }

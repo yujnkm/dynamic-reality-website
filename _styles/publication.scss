@@ -43,7 +43,7 @@ $wrap: 700px;
 }
 
 .publication-short {
-  color: #b45309;
+  color: var(--venue);
   font-weight: var(--semi-bold);
 }
 
@@ -52,7 +52,7 @@ $wrap: 700px;
 }
 
 .publication-year {
-  color: #15803d;
+  color: var(--year);
   font-weight: var(--semi-bold);
 }
 

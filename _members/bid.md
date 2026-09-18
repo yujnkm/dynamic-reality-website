@@ -1,5 +1,5 @@
 ---
 name: ""
-image: images/members/jack.png
+image: images/members/jack.jpg
 role: alumni
 ---

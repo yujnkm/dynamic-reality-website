@@ -1,6 +1,6 @@
 ---
 name: You-Jin Kim
-image: images/members/youjin-kim.png
+image: images/members/youjin-kim.jpg
 role: director
 description:
   Director

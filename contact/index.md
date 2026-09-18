@@ -40,7 +40,7 @@ The lab sits on the west side of Nebraska Hall on UNL's City Campus, running alo
 {% endcapture %}
 
 {% capture col2 %}
-{% include figure.html image="images/contact/lab-location.png" %}
+{% include figure.html image="images/contact/lab-location.jpg" alt="Campus map showing Nebraska Hall, the lab entrance, Lot 10, and the Scott Engineering Center" %}
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
@@ -157,4 +157,4 @@ Need another format? The [full logo pack](https://app.box.com/s/2dhisf5ewn98reis
 
 {% include section.html %}
 
-{% include figure.html image="images/logos/banner.png" width="100%" %}
+{% include partner-logos.html %}
