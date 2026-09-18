@@ -19,6 +19,14 @@ h1 {
   text-align: center;
 }
 
+h2.section-title {
+  margin: 40px 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 h2 {
   font-size: 1.6rem;
   padding-bottom: 5px;

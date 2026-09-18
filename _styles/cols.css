@@ -24,6 +24,9 @@
   .cols {
     --repeat: min(2, var(--cols));
   }
+  .cols :is(p, li) {
+    text-align: left;
+  }
 }
 @media (max-width: 500px) {
   .cols {

@@ -13,14 +13,59 @@
   vertical-align: top;
 }
 
+.card[data-style=project] {
+  max-width: 100%;
+}
+
+.card[data-style=project] .card-image img {
+  aspect-ratio: 4/3;
+}
+
+.card[data-style=project] .card-text {
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  gap: 8px;
+  padding: 16px 20px 20px;
+  text-align: left;
+  line-height: var(--compact);
+}
+
+.card[data-style=project] .card-title {
+  font-size: var(--large);
+}
+
+.card[data-style=project] .card-subtitle {
+  margin-top: 0 !important;
+  font-size: 0.75rem;
+  font-weight: var(--semi-bold);
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--link);
+}
+
+.card[data-style=project] p {
+  font-size: 0.9rem;
+  text-align: left;
+  color: var(--dark-gray);
+}
+
 .card[data-style=small] {
   width: 250px;
+}
+
+.card-image {
+  display: block;
+  align-self: stretch;
+  width: 100%;
 }
 
 .card-image img {
   aspect-ratio: 3/2;
   object-fit: cover;
   width: 100%;
+  max-height: none;
 }
 
 .card-text {
@@ -38,8 +83,14 @@
 }
 
 .card-title {
+  margin: 0;
+  padding: 0;
+  border: none;
   font-family: var(--heading);
+  font-size: inherit;
   font-weight: var(--semi-bold);
+  letter-spacing: normal;
+  text-align: inherit;
 }
 
 .card-subtitle {

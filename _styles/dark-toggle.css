@@ -1,7 +1,7 @@
 .dark-toggle {
   position: relative;
-  width: 40px;
-  height: 25px;
+  width: 52px;
+  height: 30px;
   margin: 0;
   border-radius: 999px;
   background: var(--primary);
@@ -12,7 +12,7 @@
 .dark-toggle:after {
   content: "\f185";
   position: absolute;
-  left: 12px;
+  left: 15px;
   top: 50%;
   color: var(--text);
   font-size: 15px;
@@ -24,7 +24,7 @@
 
 .dark-toggle:checked:after {
   content: "\f186";
-  left: calc(100% - 12px);
+  left: calc(100% - 15px);
 }
 
 /*# sourceMappingURL=dark-toggle.css.map */

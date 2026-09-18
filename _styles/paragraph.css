@@ -4,4 +4,10 @@ p {
   line-height: var(--spacing);
 }
 
+@media (max-width: 500px) {
+  p {
+    text-align: left;
+  }
+}
+
 /*# sourceMappingURL=paragraph.css.map */

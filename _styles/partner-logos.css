@@ -1,0 +1,64 @@
+.partner-logos {
+  --u: clamp(0.8px, calc(0.325px + 0.075vw), 1.3px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 36px;
+  margin: 20px 0;
+}
+
+@media (min-width: 1000px) {
+  .partner-logos {
+    justify-content: space-between;
+  }
+}
+.partner-logos img {
+  height: calc(var(--h) * var(--u));
+  width: auto;
+  max-width: 100%;
+}
+
+.partner-logos .logo-dark {
+  display: none;
+}
+
+[data-dark=true] .partner-logos .logo-light {
+  display: none;
+}
+[data-dark=true] .partner-logos .logo-dark {
+  display: block;
+}
+
+.partner-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(2 * var(--u));
+  height: calc(56 * var(--u));
+  padding: 0 calc(16 * var(--u));
+  border-radius: calc(5 * var(--u));
+  background: var(--text);
+  box-shadow: inset 0 0 0 calc(4 * var(--u)) var(--text), inset 0 0 0 calc(6 * var(--u)) var(--background);
+  color: var(--background);
+  font-family: "Oswald", var(--heading);
+  font-size: calc(10.5 * var(--u));
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.partner-badge > :not(.partner-badge-top) {
+  opacity: 0.7;
+}
+
+.partner-badge-top {
+  font-size: calc(27 * var(--u));
+  font-weight: var(--bold);
+  letter-spacing: 0.05em;
+}
+
+/*# sourceMappingURL=partner-logos.css.map */

@@ -15,13 +15,18 @@
   margin: 0 !important;
 }
 
+.grid[data-style=two] {
+  --repeat: 2;
+}
+
 @media (max-width: 750px) {
   .grid {
     --repeat: 2;
   }
 }
 @media (max-width: 500px) {
-  .grid {
+  .grid,
+  .grid[data-style=two] {
     --repeat: 1;
   }
 }

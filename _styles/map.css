@@ -1,0 +1,11 @@
+.map {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+  border: 0;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+/*# sourceMappingURL=map.css.map */
