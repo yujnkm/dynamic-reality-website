@@ -38,7 +38,6 @@
   // max width of the content inside a section; the section itself stays
   // full-bleed so the alternating backgrounds still span the window
   --page: 1200px;
-  --page-medium: 1500px;
   // side gutter, used once the window is narrower than the page width above.
   // fluid so phones aren't spending ~20% of a 360px screen on padding
   --gutter: clamp(20px, 5vw, 40px);
