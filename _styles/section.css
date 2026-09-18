@@ -3,10 +3,6 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
-section[data-size=medium] {
-  padding: var(--section-padding) max(var(--gutter), (100% - var(--page-medium)) / 2);
-}
-
 section[data-size=wide] {
   padding: var(--section-padding) var(--gutter);
 }

@@ -30,7 +30,6 @@
 
 :root {
   --page: 1200px;
-  --page-medium: 1500px;
   --gutter: clamp(20px, 5vw, 40px);
   --section-padding: 40px;
   --title: "Barlow", sans-serif;
