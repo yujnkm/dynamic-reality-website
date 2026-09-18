@@ -1,18 +1,22 @@
 {% comment %}
-  affiliation logos, in display order. each entry is files:height:alt
+  affiliation logos, in display order. each entry is files:height:size:alt
   - files: path under /images/logos/. "light|dark" gives separate artwork for
     light and dark backgrounds, swapped with the theme; a single path is used
     in both
   - height: desktop display height in px, tuned so the logos look balanced
+  - size: the image file's pixel size, WxH (both files of a pair must match).
+    lets the browser reserve each logo's width before it loads, so the row
+    doesn't jump when the lazy-loaded dark artwork arrives on the first theme
+    switch
   "badge" draws the School of Computing mark in css, since no official artwork
   exists for it.
 {% endcomment %}
 {% capture logos -%}
-  partners/big-ten-light.png|partners/big-ten-dark.png:56:Big Ten Academic Alliance,
-  partners/unl-light.png|partners/unl-dark.png:52:University of Nebraska–Lincoln,
-  partners/nebraska-engineering.png:44:Nebraska Engineering,
+  partners/big-ten-light.png|partners/big-ten-dark.png:56:404x200:Big Ten Academic Alliance,
+  partners/unl-light.png|partners/unl-dark.png:52:503x200:University of Nebraska–Lincoln,
+  partners/nebraska-engineering.png:44:720x200:Nebraska Engineering,
   badge,
-  DRL_white_background_full.png|DRL_black_background_full.png:52:Dynamic Reality Lab
+  DRL_white_background_full.png|DRL_black_background_full.png:52:1741x563:Dynamic Reality Lab
 {%- endcapture %}
 
 {% assign base = "/images/logos/" | relative_url %}
@@ -22,16 +26,20 @@
   {% for logo in logos %}
     {% assign parts = logo | strip | split: ":" %}
     {% assign files = parts[0] | split: "|" %}
+    {% assign size = parts[2] | split: "x" %}
+    {% capture attrs -%}
+      alt="{{ parts[3] }}" width="{{ size[0] }}" height="{{ size[1] }}" style="--h: {{ parts[1] }}" loading="lazy"
+    {%- endcapture %}
     {% if parts[0] == "badge" %}
       <span class="partner-badge" role="img" aria-label="Nebraska School of Computing">
         <span class="partner-badge-top">Nebraska</span>
         <span>School of Computing</span>
       </span>
     {% elsif files.size == 2 %}
-      <img class="logo-light" src="{{ base }}{{ files[0] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
-      <img class="logo-dark" src="{{ base }}{{ files[1] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+      <img class="logo-light" src="{{ base }}{{ files[0] }}" {{ attrs }}>
+      <img class="logo-dark" src="{{ base }}{{ files[1] }}" {{ attrs }}>
     {% else %}
-      <img src="{{ base }}{{ files[0] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+      <img src="{{ base }}{{ files[0] }}" {{ attrs }}>
     {% endif %}
   {% endfor %}
 </div>
