@@ -48,10 +48,9 @@ $spread: 1000px;
 }
 
 // School of Computing mark (no official artwork exists): a solid block in the
-// text color with an inner rule echoing the outlined N in the university logos,
-// set in Oswald, a free stand-in for the condensed gothic in those wordmarks.
-// Built from theme colors, so it's black-on-white in light mode and flips to
-// white-on-black in dark mode.
+// text color, set in Oswald, a free stand-in for the condensed gothic in the
+// university wordmarks. Built from theme colors, so it's black-on-white in
+// light mode and flips to white-on-black in dark mode.
 .partner-badge {
   display: inline-flex;
   flex-direction: column;
@@ -62,8 +61,6 @@ $spread: 1000px;
   padding: 0 calc(16 * var(--u));
   border-radius: calc(5 * var(--u));
   background: var(--text);
-  box-shadow: inset 0 0 0 calc(4 * var(--u)) var(--text),
-    inset 0 0 0 calc(6 * var(--u)) var(--background);
   color: var(--background);
   font-family: "Oswald", var(--heading);
   font-size: calc(10.5 * var(--u));

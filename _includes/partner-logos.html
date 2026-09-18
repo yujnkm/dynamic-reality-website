@@ -1,35 +1,37 @@
 {% comment %}
-  affiliation logos, in display order. each entry is file:height:alt:variants
+  affiliation logos, in display order. each entry is files:height:alt
+  - files: path under /images/logos/. "light|dark" gives separate artwork for
+    light and dark backgrounds, swapped with the theme; a single path is used
+    in both
   - height: desktop display height in px, tuned so the logos look balanced
-  - variants: "themed" swaps between <file>-light.png and <file>-dark.png with
-    the theme, "single" uses <file>.png in both
   "badge" draws the School of Computing mark in css, since no official artwork
   exists for it.
 {% endcomment %}
 {% capture logos -%}
-  big-ten:56:Big Ten Academic Alliance:themed,
-  unl:72:University of Nebraska–Lincoln:themed,
-  nebraska-engineering:60:Nebraska Engineering:single,
+  partners/big-ten-light.png|partners/big-ten-dark.png:56:Big Ten Academic Alliance,
+  partners/unl-light.png|partners/unl-dark.png:52:University of Nebraska–Lincoln,
+  partners/nebraska-engineering.png:44:Nebraska Engineering,
   badge,
-  drl:52:Dynamic Reality Lab:themed
+  DRL_white_background_full.png|DRL_black_background_full.png:52:Dynamic Reality Lab
 {%- endcapture %}
 
-{% assign base = "/images/logos/partners/" | relative_url %}
+{% assign base = "/images/logos/" | relative_url %}
 
 <div class="partner-logos">
   {% assign logos = logos | split: "," %}
   {% for logo in logos %}
     {% assign parts = logo | strip | split: ":" %}
+    {% assign files = parts[0] | split: "|" %}
     {% if parts[0] == "badge" %}
       <span class="partner-badge" role="img" aria-label="Nebraska School of Computing">
         <span class="partner-badge-top">Nebraska</span>
         <span>School of Computing</span>
       </span>
-    {% elsif parts[3] == "themed" %}
-      <img class="logo-light" src="{{ base }}{{ parts[0] }}-light.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
-      <img class="logo-dark" src="{{ base }}{{ parts[0] }}-dark.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+    {% elsif files.size == 2 %}
+      <img class="logo-light" src="{{ base }}{{ files[0] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+      <img class="logo-dark" src="{{ base }}{{ files[1] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
     {% else %}
-      <img src="{{ base }}{{ parts[0] }}.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+      <img src="{{ base }}{{ files[0] }}" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
     {% endif %}
   {% endfor %}
 </div>

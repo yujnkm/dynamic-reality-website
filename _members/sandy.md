@@ -1,5 +1,0 @@
----
-name: Sandy
-image: images/members/sandy.jpg
-role: alumni
----
