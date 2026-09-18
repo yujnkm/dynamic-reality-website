@@ -12,11 +12,11 @@ nav:
 
 <hr />
 
-<!--
+{% comment %}
   Members are listed by role, in the order below. To add someone new, set their
   `role` in _members/<name>.md; they will appear in the right group automatically.
   Order: PhD -> postdoc -> master's -> research staff -> undergraduate.
--->
+{% endcomment %}
 
 {% include list.html data="members" component="portrait"
   filter="role == 'phd'" %}

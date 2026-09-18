@@ -1,5 +1,7 @@
 # site properties and page defaults
-title: 
+title: Dynamic Reality Lab
+# logo already contains the name; do not repeat it as text in the header
+show-title: false
 subtitle: 
 description: The Dynamic Reality Lab (DRL) at the University of Nebraska–Lincoln explores how to enhance human interaction in the physical world through spatial computing and wide-area augmented reality.
 proofer: false
@@ -69,4 +71,3 @@ include:
 exclude:
   - README.md
   - LICENSE.md
-  - CITATION.cff

@@ -20,7 +20,7 @@ Thinking about joining us? Have a look around the lab first, then read [Joining 
 
 {%
   include figure.html
-  image="images/photos/location_01.jpg"
+  image="images/contact/location_01.jpg"
   caption="Nebraska Hall [NH] - Room W192 <br>
   900 N 16th St, Lincoln, NE 68508"
 %}
@@ -157,4 +157,4 @@ Need another format? The [full logo pack](https://app.box.com/s/2dhisf5ewn98reis
 
 {% include section.html %}
 
-{% include figure.html image="images/home/banner.png" width="100%" %}
+{% include figure.html image="images/logos/banner.png" width="100%" %}
