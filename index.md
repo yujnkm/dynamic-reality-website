@@ -59,7 +59,7 @@ This line of work brings **deep neural networks** and avatar AI agents into **im
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include figure.html image="images/home/wide-area-ar.jpg" alt="Map of the 1,456 square meter outdoor area used for wide-area AR experiments" %}
+{% include figure.html image="images/home/wide-area-ar-study-space.jpg" alt="Map of the 1,456 square meter outdoor area used for wide-area AR experiments" %}
 
 {%
   include button.html
