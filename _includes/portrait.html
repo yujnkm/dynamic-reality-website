@@ -9,14 +9,13 @@
 
 {% assign type = site.data.types[member.role] %}
 
+{% comment %}
+  the photo gets empty alt because the name is printed right under it
+{% endcomment %}
 <div class="portrait-wrapper">
-  <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
-    {% endif %}
+  <div
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -25,7 +24,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt=""
       loading="lazy"
       {% include fallback.html %}
     >
@@ -47,5 +46,5 @@
         {{ member.affiliation }}
       </span>
     {% endif %}
-  </a>
+  </div>
 </div>

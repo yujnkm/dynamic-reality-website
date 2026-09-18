@@ -1,20 +1,25 @@
 ---
 ---
 
-$page: 1000px;
-$padding: 40px;
+// Content width is centred by growing the side padding, rather than by
+// constraining the section itself, so each section keeps painting its
+// background edge to edge. `max()` means the gutter wins on narrow windows and
+// the centring calc wins on wide ones -- no media queries needed.
+// Tune --page / --gutter in -theme.scss.
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: var(--section-padding)
+    max(var(--gutter), calc((100% - var(--page)) / 2));
   transition: background var(--transition), color var(--transition);
 }
 
 section[data-size="medium"] {
-  padding: $padding max($padding, calc((100% - 1500px) / 2));
+  padding: var(--section-padding)
+    max(var(--gutter), calc((100% - var(--page-medium)) / 2));
 }
 
 section[data-size="wide"] {
-  padding: $padding;
+  padding: var(--section-padding) var(--gutter);
 }
 
 section[data-size="full"] {
@@ -40,4 +45,8 @@ main > section:nth-of-type(odd) {
 
 main > section:nth-of-type(even) {
   background: var(--background-alt);
+}
+
+main > section[data-style="gray"] {
+  background: #282828;
 }

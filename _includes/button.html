@@ -13,7 +13,12 @@
       {% if include.flip %}
         data-flip
       {% endif %}
-      aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+      {% comment %}
+        label icon-only buttons; buttons with visible text are named by it
+      {% endcomment %}
+      {% unless button.text and button.text != "" %}
+        aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+      {% endunless %}
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}

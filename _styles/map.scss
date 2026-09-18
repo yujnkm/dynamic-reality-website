@@ -1,0 +1,15 @@
+---
+---
+
+// embedded map, sized to sit alongside a figure image in a cols layout: fills
+// the column and matches the 4/3 photo it pairs with, with the same rounding
+// and shadow .figure-image img gets
+.map {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  border: 0;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}

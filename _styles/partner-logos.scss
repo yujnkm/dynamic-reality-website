@@ -1,0 +1,86 @@
+---
+---
+
+// affiliation logos along the bottom of a page. Each logo carries its base
+// height in --h, and --u (px per unit of --h) grows with the window: 0.8 on
+// phones up to 1.3 at full page width, so the row fills the content area on
+// desktop and wraps onto extra rows on narrow screens.
+
+$spread: 1000px;
+
+.partner-logos {
+  --u: clamp(0.8px, calc(0.325px + 0.075vw), 1.3px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 36px;
+  margin: 20px 0;
+}
+
+// wide enough for one row: pin the end logos to the content edges. Below this
+// the row wraps, and a spread-out partial row looks broken, so stay centred
+@media (min-width: $spread) {
+  .partner-logos {
+    justify-content: space-between;
+  }
+}
+
+.partner-logos img {
+  height: calc(var(--h) * var(--u));
+  width: auto;
+  max-width: 100%;
+}
+
+// logos with separate artwork for light and dark backgrounds
+.partner-logos .logo-dark {
+  display: none;
+}
+
+[data-dark="true"] .partner-logos {
+  .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
+}
+
+// School of Computing mark (no official artwork exists): a solid block in the
+// text color with an inner rule echoing the outlined N in the university logos,
+// set in Oswald, a free stand-in for the condensed gothic in those wordmarks.
+// Built from theme colors, so it's black-on-white in light mode and flips to
+// white-on-black in dark mode.
+.partner-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(2 * var(--u));
+  height: calc(56 * var(--u));
+  padding: 0 calc(16 * var(--u));
+  border-radius: calc(5 * var(--u));
+  background: var(--text);
+  box-shadow: inset 0 0 0 calc(4 * var(--u)) var(--text),
+    inset 0 0 0 calc(6 * var(--u)) var(--background);
+  color: var(--background);
+  font-family: "Oswald", var(--heading);
+  font-size: calc(10.5 * var(--u));
+  font-weight: var(--semi-bold);
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+// the subtitle line is softened to a gray; the top line stays full strength
+.partner-badge > :not(.partner-badge-top) {
+  opacity: 0.7;
+}
+
+.partner-badge-top {
+  font-size: calc(27 * var(--u));
+  font-weight: var(--bold);
+  letter-spacing: 0.05em;
+}

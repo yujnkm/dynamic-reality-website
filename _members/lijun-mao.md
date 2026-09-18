@@ -1,10 +1,13 @@
 ---
 name: Lijun Mao
-image: images/members/lijun-mao.png
+# role drives sorting on the team page; description shows both titles until the
+# appointment is confirmed
 role: phd
-description: |
-  CS  PhD Student
-affiliation: UNL
+image: images/members/lijun-mao.jpg
+description:
+  CS PhD Student
+  <br/>
+  Research Specialist II
 aliases:
 links:
 ---

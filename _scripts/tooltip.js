@@ -4,6 +4,21 @@
 */
 
 {
+  // let keyboard users dismiss a tooltip without moving focus (WCAG 1.4.13)
+  const hideOnEsc = {
+    name: "hideOnEsc",
+    defaultValue: true,
+    fn: ({ hide }) => {
+      const onKeyDown = (event) => {
+        if (event.key === "Escape") hide();
+      };
+      return {
+        onShow: () => document.addEventListener("keydown", onKeyDown),
+        onHide: () => document.removeEventListener("keydown", onKeyDown),
+      };
+    },
+  };
+
   const onLoad = () => {
     // make sure Tippy library available
     if (typeof tippy === "undefined") return;
@@ -21,6 +36,7 @@
       allowHTML: true,
       interactive: true,
       appendTo: () => document.body,
+      plugins: [hideOnEsc],
       aria: {
         content: "describedby",
         expanded: null,

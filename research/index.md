@@ -3,24 +3,17 @@ title: Research
 nav:
   order: 1
   tooltip: Published works
+# filter chip groups above the publication list. tags not listed here are
+# collected into a "Topic" group automatically
+filters:
+  - label: Type
+    tags: [Journal Paper, Full Paper, Short Paper, Workshop, Dissertation]
+  - label: Platform
+    tags: [AR, VR, XR, SAR, HoloLens 2, Magic Leap 2, Meta Quest 3, Vive Pro Eye]
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+{% include publication-filters.html data=site.data.publications %}
 
-We study how people experience and interact with dynamic, immersive environments. Our research explores virtual and augmented reality, perception, and human-computer interaction, aiming to deepen understanding and open new possibilities for design.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+{% for pub in site.data.publications %}
+  {% include publication.html pub=pub %}
+{% endfor %}

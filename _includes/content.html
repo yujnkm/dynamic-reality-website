@@ -1,9 +1,9 @@
-<!--
+{% comment %}
   modify main content of page:
   - add section breaks
   - attach section properties
   - filter out blank sections
--->
+{% endcomment %}
 
 {% assign content = include.content %}
 
@@ -16,14 +16,18 @@
     | default: nil
   %}
   {% assign size = section | regex_scan: "size: (.*);" | default: "page" %}
+  {% assign style = section | regex_scan: "style: (.*);" | default: "" %}
 
   <section
     class="background"
     data-size="{{ size }}"
+    {% if style != "" %}
+      data-style="{{ style }}"
+    {% endif %}
     {% if dark == "true" or dark == "false" %}
       data-dark="{{ dark }}"
     {% endif %}
-    {% if background %}
+    {% if image %}
       style="--image: url('{{ image | relative_url | uri_escape }}')"
     {% endif %}
   >

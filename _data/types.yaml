@@ -1,13 +1,17 @@
 # map general type to default/fallback icon, text, etc.
 
 # team member roles
+#
+# team/index.md lists these groups in a fixed order:
+#   director -> prof  |  phd -> postdoc -> grad -> staff -> undergrad  |  mascot
+# Add a new role here and to that page's list to slot it into the ordering.
 
 director:
-  icon: fa-solid fa-earth-americas
+  icon: fa-solid fa-user-tie
   description: Director
 
 prof:
-  icon: fa-solid fa-earth-americas
+  icon: fa-solid fa-user-tie
   description: Professor
 
 postdoc:
@@ -18,16 +22,20 @@ phd:
   icon: fa-solid fa-user-graduate
   description: PhD Student
 
+staff:
+  icon: fa-solid fa-seedling
+  description: Research Specialist
+
 grad:
-  icon: fa-solid fa-user
+  icon: fa-solid fa-seedling
   description: Master Student
 
 undergrad:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-seedling
   description: Undergraduate Student
 
 friend:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-seedling
   description: Undergraduate Student
 
 mascot:
@@ -35,7 +43,7 @@ mascot:
   description: Mascot
 
 alumni:
-  icon: fa-solid fa-users
+  icon: fa-solid fa-graduation-cap
 
 # general
 

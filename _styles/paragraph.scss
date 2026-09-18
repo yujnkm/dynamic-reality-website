@@ -1,8 +1,17 @@
 ---
 ---
 
+$narrow: 500px;
+
 p {
   margin: 20px 0;
   text-align: justify;
   line-height: var(--spacing);
+}
+
+// justified text leaves big gaps between words on short phone-width lines
+@media (max-width: $narrow) {
+  p {
+    text-align: left;
+  }
 }

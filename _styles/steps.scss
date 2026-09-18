@@ -1,0 +1,60 @@
+---
+---
+
+// numbered steps, used for the "Joining the Lab" flow. Breaks a long run of
+// prose into scannable blocks instead of stacked paragraphs.
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+  padding: 24px;
+  text-align: left;
+  background: var(--background);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  line-height: var(--compact);
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--link);
+  color: #ffffff;
+  font-family: var(--heading);
+  font-weight: var(--bold);
+}
+
+// a heading for page structure, styled like the plain text it used to be
+.step-title {
+  margin: 0;
+  letter-spacing: normal;
+  font-family: var(--heading);
+  font-size: var(--large);
+  font-weight: var(--semi-bold);
+  line-height: var(--compact);
+}
+
+.step p {
+  margin: 0 !important;
+  font-size: 0.95rem;
+  text-align: left;
+  color: var(--dark-gray);
+}

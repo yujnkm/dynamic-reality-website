@@ -1,10 +1,16 @@
-<!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
+{% comment %} Google Fonts, url built from fonts used in theme file {% endcomment %}
 {% assign googlefonts = "_styles/-theme.scss" | file_read | google_fonts %}
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="{{ googlefonts }}" rel="stylesheet">
 
-<!-- Font Awesome icons (load asynchronously due to size) -->
+{% comment %}
+  Oswald, for the School of Computing mark in partner-logos.html. Loaded
+  separately because it has no italics, and the url above asks for italic
+  weights of every family
+{% endcomment %}
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+
+{% comment %} Font Awesome icons (load asynchronously due to size) {% endcomment %}
 {% assign fontawesome = "https://use.fontawesome.com/releases/v6.5.0/css/all.css" %}
 <link
   href="{{ fontawesome }}"

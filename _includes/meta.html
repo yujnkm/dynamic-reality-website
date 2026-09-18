@@ -8,13 +8,13 @@
 {% endif %}
 
 {% assign fulltitle = "" | split: "," %}
-{% if title %}
-  {% assign fulltitle = fulltitle | push: title %}
-{% endif %}
 {% if site.title %}
   {% assign fulltitle = fulltitle | push: site.title %}
 {% endif %}
-{% assign fulltitle = fulltitle | join: " | " %}
+{% if title %}
+  {% assign fulltitle = fulltitle | push: title %}
+{% endif %}
+{% assign fulltitle = fulltitle | join: " - " %}
 
 {% assign subtitle = site.subtitle %}
 
@@ -32,9 +32,9 @@
 {% assign jpg = "images/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
 
-{% assign jpg = "images/share.jpg" | file_exists %}
-{% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | relative_url %}
+{% assign jpg = "images/logos/share.jpg" | file_exists %}
+{% assign png = "images/logos/share.png" | file_exists %}
+{% assign share = jpg | default: png | absolute_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -45,7 +45,13 @@
 
 <title>{{ fulltitle }}</title>
 
-<link rel="icon" href="{{ icon }}">
+{% comment %}
+  png for browsers without svg favicon support (safari); svg swaps between
+  black and white line versions to match the browser's light/dark theme
+{% endcomment %}
+<link rel="icon" href="{{ "images/favicon.png" | relative_url }}" sizes="32x32">
+<link rel="icon" href="{{ "images/icon.svg" | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ icon }}">
 
 <meta name="title" content="{{ title | xml_escape }}">
 <meta name="description" content="{{ description | xml_escape }}">

@@ -1,11 +1,11 @@
 /*
   filters elements on page based on url or search box.
   syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
-  match if: all terms AND at least one phrase AND at least one tag
+  match if: all terms AND at least one phrase AND all tags
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation, .post-excerpt, .publication";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -68,7 +68,7 @@
     return (
       (terms.every(hasText) || !terms.length) &&
       (phrases.some(hasText) || !phrases.length) &&
-      (tags.some(hasTag) || !tags.length)
+      (tags.every(hasTag) || !tags.length)
     );
   };
 
@@ -200,6 +200,12 @@
   window.onSearchInput = (target) => {
     debouncedRunSearch(target.value);
     updateUrl(target.value);
+  };
+
+  // run a search from other scripts (e.g. tag-filter.js) and keep url in sync
+  window.searchFor = (query = "") => {
+    runSearch(query);
+    updateUrl(query);
   };
 
   // when user clears search box with button

@@ -2,8 +2,14 @@
 <html lang="en" data-dark="false">
   {% include head.html %}
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     {% include header.html %}
-    <main>
+    <main id="main" tabindex="-1">
+      {% comment %}
+        page title for screen readers and outline; the logo stands in for it
+        visually, so it isn't repeated on screen
+      {% endcomment %}
+      <h1 class="sr-only">{{ page.title | default: site.title }}</h1>
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

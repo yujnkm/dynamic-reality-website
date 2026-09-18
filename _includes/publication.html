@@ -1,0 +1,108 @@
+{% assign pub = include.pub %}
+
+{% comment %}
+  the thumbnail repeats the title link, so it's hidden from keyboard and
+  screen reader users; the title is a heading so the list can be skimmed
+{% endcomment %}
+<div class="publication">
+  {% if pub.project %}
+    <a
+      href="{{ pub.project | uri_escape }}"
+      class="publication-image"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+  {% else %}
+    <div class="publication-image">
+  {% endif %}
+    <img
+      src="{{ pub.image | relative_url | uri_escape }}"
+      alt=""
+      loading="lazy"
+      {% include fallback.html %}
+    >
+  {% if pub.project %}
+    </a>
+  {% else %}
+    </div>
+  {% endif %}
+
+  <div class="publication-text">
+    <h2 class="publication-title">
+      {% if pub.project %}
+        <a href="{{ pub.project | uri_escape }}">{{ pub.title }}</a>
+      {% else %}
+        {{ pub.title }}
+      {% endif %}
+    </h2>
+
+    <div class="publication-authors">
+      {{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}
+    </div>
+
+    <div class="publication-venue">
+      <em>{{ pub.venue }}</em>
+      &bull; <span class="publication-short">{{ pub.short }}</span>
+      {% if pub.track %}
+        {{ pub.track }}
+      {% endif %}
+    </div>
+
+    {% if pub.presented or pub.award %}
+      <div class="publication-presented">
+        {% if pub.award %}
+          <span class="publication-award">{{ pub.award }}</span>
+        {% endif %}
+        {% if pub.presented %}
+          Presented: {{ pub.presented }}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="publication-meta">
+      <span class="publication-year">{{ pub.year }} Published</span>
+      &bull; [{{ pub.id }}]
+      &bull; {{ pub.type }}
+      &bull; Acceptance Rate: {{ pub.acceptance }}
+    </div>
+
+    <div class="publication-links">
+      {% if pub.doi %}
+        <a href="{{ pub.doi.link | uri_escape }}">
+          {% include icon.html icon="fa-solid fa-link" %}
+          DOI: {{ pub.doi.text }}
+        </a>
+      {% endif %}
+      {% if pub.arxiv %}
+        <a href="{{ pub.arxiv.link | uri_escape }}">
+          {% include icon.html icon="fa-solid fa-scroll" %}
+          arXiv: {{ pub.arxiv.text }}
+        </a>
+      {% endif %}
+      {% if pub.researchgate %}
+        <a href="{{ pub.researchgate.link | uri_escape }}">
+          {% include icon.html icon="fa-brands fa-researchgate" %}
+          ResearchGate: {{ pub.researchgate.text }}
+        </a>
+      {% endif %}
+      {% if pub.project %}
+        <a href="{{ pub.project | uri_escape }}">
+          {% include icon.html icon="fa-solid fa-globe" %}
+          Project Webpage
+        </a>
+      {% endif %}
+    </div>
+
+    {% if pub.tags %}
+      <div class="publication-tags">
+        {% for tag in pub.tags %}
+          {% assign slug = tag | downcase | replace: " ", "-" %}
+          <a
+            href="?search=&quot;tag: {{ slug }}&quot;"
+            class="tag publication-tag"
+          >{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

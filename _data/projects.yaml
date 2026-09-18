@@ -1,111 +1,111 @@
 - title: SABER
-  subtitle: "Presented: IEEE VR 2026 - [Brain Sensing and Stimulation Session] March 25, 2026, Daegu, Korea"
+  subtitle: "IEEE VR 2026 - Daegu, Korea"
   group: featured
-  image: images/projects/saber.png
+  image: images/projects/saber.jpg
   link: https://www.yujnkm.com/projects/saber
-  description: Univariate EEG metrics used for 2D spatial attention generalize effectively to immersive, dynamic 3D virtual reality environments
+  description: Analytical metrics for EEG-based spatial attention research, giving researchers a concrete way to measure engagement inside virtual environments.
 
 - title: On the Go with AR
-  subtitle: "Presented: ACM CHI 2025 - [Virtual and Mixed Reality Interaction Session] April 30, 2025, Yokohama, Japan"
+  subtitle: "ACM CHI 2025 - Yokohama, Japan"
   group: featured
   image: images/projects/on-the-go-with-ar.jpg
   link: https://www.yujnkm.com/projects/on-the-go-with-ar
-  description: Demonstrated how AR task demands fundamentally alter environmental awareness, forcing users to split focus between physical and virtual elements
+  description: AR task demands change what people notice around them. This study traced how attention splits between physical surroundings and virtual content while on the move.
 
 - title: NeuResonance
-  subtitle: "Presented: ACM CHI 2025 - [Embodied Simulation Session] May 1, 2025, Yokohama, Japan"
+  subtitle: "ACM CHI 2025 - Yokohama, Japan"
   group: featured
   image: images/projects/neuresonance.jpg
   link: https://www.yujnkm.com/projects/neuresonance
-  description: Auditory feedback provides the most consistent and significant improvement in inter-brain synchronization compared to visual and haptic modalities
+  description: Multimodal feedback improved inter-brain synchronization more than visual or haptic feedback did on its own.
 
 - title: Beyond Reality
-  subtitle: "Presented: UCSB - November 8, 2024, Santa Barbara, California"
+  subtitle: "PhD Dissertation - Santa Barbara, California"
   group: featured
-  image: images/projects/beyond-reality.png
+  image: images/projects/beyond-reality.jpg
   link: https://www.yujnkm.com/projects/beyond-reality
-  description: Conducted an outdoor user study evaluating how wide-area AR navigation cues impact spatial memory and object recall
+  description: A dissertation on what makes interactive narrative in immersive experiences richer, and on the role attention and related factors play in it.
 
 - title: Audience Amplified
-  subtitle: "Presented: IEEE ISMAR 2024 - [Avatar 2 Session] October 24, 2024, Bellevue, Greater Seattle area"
+  subtitle: "IEEE ISMAR 2024 - Bellevue, Seattle"
   group: featured
   image: images/projects/audience-amplified.jpg
   link: https://www.yujnkm.com/projects/audience-amplified
-  description: Provides a proof-of-concept for capturing and reliving historical, human-involved events through the deployment of DNN avatar audiences
+  description: A proof of concept for capturing physical spatial behavior with reinforcement learning, then driving responsive AR avatars from what it learns.
 
 - title: Reality Distortion Room
-  subtitle: "Presented: IEEE ISMAR 2023 - [Navigation and Locomotion Session] October 18, 2023, Sydney, Australia"
+  subtitle: "IEEE ISMAR 2023 - Sydney, Australia"
   group: featured
   image: images/projects/reality-distortion-room.jpg
   link: https://www.yujnkm.com/projects/reality-distortion-room
-  description: Demonstrates that visual distortions predictably guide natural human movement without using explicit verbal or written prompts
+  description: Small, deliberate visual distortions can steer how people walk through a room, without a word of verbal or written instruction.
 
 - title: Dynamic Theater
-  subtitle: "Presented: ACM VRST 2023 - [Technologies in the Wild Session] October 10, 2023, Christchurch, New Zealand"
+  subtitle: "ACM VRST 2023 - Christchurch, New Zealand"
   group: featured
-  image: images/projects/dynamic-theater.png
+  image: images/projects/dynamic-theater.jpg
   link: https://www.yujnkm.com/projects/dynamic-theater
-  description: Immersion in AR environments significantly distorts temporal perception, causing participants to overestimate the duration of their experience by 37%
+  description: Content Zones let an interactive narrative follow each viewer's own pace while keeping the story itself consistent across augmented content.
 
 - title: JourneyReplay
-  subtitle: 
+  subtitle: "ACM CHI 2023 - Hamburg, Germany"
   group: featured
   image: images/projects/journey-replay.jpg
   link: https://www.yujnkm.com/projects/journeyreplay
-  description: FOV playback accurately representing the user’s perspective using digital twins helps measure cognitive load and spatial awareness across outdoor AR environments
+  description: Full field-of-view playback paired with digital twins, so spatial context and the reasons behind user behavior can be reviewed after the session.
 
 - title: FractalBrain
-  subtitle: "Presented: ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi"
+  subtitle: "ACM CHI 2024 - Honolulu, Hawaiʻi"
   group: featured
   image: images/projects/fractal-brain.jpg
   link: https://www.yujnkm.com/projects/fractalbrain
-  description: Fractal-inspired visuals elicit maximal alpha responses in the brain's frontal region, indicating a deeply relaxed and calm meditative state
+  description: Fractal-inspired visual stimuli drew the strongest frontal alpha response we measured, and left participants in a noticeably calmer state.
 
 - title: Spatial Orchestra
-  subtitle: "Presented: ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi"
+  subtitle: "ACM CHI 2024 - Honolulu, Hawaiʻi"
   group: featured
   image: images/projects/spatial-orchestra.jpg
   link: https://www.yujnkm.com/projects/spatial-orchestra
-  description: Maps human gait to audio synthesis, allowing users to achieve musical expression and creation through intuitive physical movement and walking
+  description: Gait becomes sound. Stepping through virtual bubbles drives audio synthesis, turning ordinary movement into musical expression.
 
 - title: Virtual Campus
-  subtitle: 
+  subtitle: "IEEE ISMAR 2022 - Singapore"
   group: featured
   image: images/projects/virtual-campus.jpg
   link: https://www.yujnkm.com/projects/virtual-campus
-  description: Preserves a precise digital record of location architecture, ensuring long-term historical spatial documentation for heritage conservation and future structural reference
+  description: A capture pipeline for detailed architectural records, built for long-term digital documentation in heritage conservation.
 
 - title: World Tracer
-  subtitle: 
+  subtitle: "Nokia Bell Labs - Murray Hill, New Jersey"
   group: featured
   image: images/projects/world-tracer.jpg
   link: https://www.yujnkm.com/projects/world-tracer
-  description: The work establishes a continuous learning pipeline where simulation evolves with the physical world, creating a closed-loop system for fleet optimization
+  description: A continuous learning loop where the simulation updates alongside the physical environment, tuning multi-robot speeds zone by zone.
 
 - title: Wide-area AR 2
-  subtitle: "Presented: ACM CHI 2023 - [Supporting users in AR and VR Session] April 26, 2023, Hamburg, Germany"
+  subtitle: "ACM CHI 2023 - Hamburg, Germany"
   group: featured
-  image: images/projects/wide-area-ar-2.png
+  image: images/projects/wide-area-ar-2.jpg
   link: https://www.yujnkm.com/projects/wide-area-ar-2
-  description: All three AR navigation aids significantly minimize visual search trial time and total head rotation compared to navigating with no assistive cues
+  description: A comparison of 3D spatial AR navigation cues against conventional map cues, measuring visual search efficiency and where each one works best.
 
 - title: Wide-area AR 1
-  subtitle: "Presented: IEEE ISMAR 2022 - [Evaluation Session] October 19, 2022, Singapore"
+  subtitle: "IEEE TVCG 2022 - Singapore"
   group: featured
   image: images/projects/wide-area-ar-1.jpg
   link: https://www.yujnkm.com/projects/wide-area-ar-1
-  description: Outdoor AR search task completion time and distance traveled significantly decrease over sequential trials, demonstrating strong spatial learning effects
+  description: Outdoor search performance under changing light, measured through cognitive load and spatial learning as users hunt for virtual items hidden behind real objects.
 
 - title: Climate Simulation
-  subtitle: "Presented: ACM SIGGRAPH SPARKS 2023 - [Spatiality in Virtual Reality Session] January 27, 2023, Remote Presentation"
+  subtitle: "ACM SIGGRAPH SPARKS - Seoul, Korea"
   group: featured
   image: images/projects/climate-simulation.jpg
   link: https://www.yujnkm.com/projects/climate-simulation
-  description: Demonstrated the feasibility of interactive, outdoor AR narratives that successfully convey the true scale of events to the viewer
+  description: An interactive outdoor AR narrative built to convey the scale of major environmental events at something close to their real size.
 
 - title: ATLAS
-  subtitle: "Presented: Magic Leap Independent Creator Program Pitch Presentation,  February 4, 2019, Magic Leap, Plantation, Florida"
+  subtitle: "Magic Leap Developer - Plantation, Florida"
   group: featured
-  image: images/projects/atlas.png
+  image: images/projects/atlas.jpg
   link: https://www.yujnkm.com/projects/atlas
-  description: Reimagines room-scale AR interactions, using spatial interaction design to maximize user understanding of mixed reality despite a limited hardware field of view
+  description: Large-scale AR interaction in ordinary indoor rooms, using spatial design to work around the field-of-view limits of current headsets.

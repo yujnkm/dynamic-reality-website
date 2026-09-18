@@ -5,12 +5,6 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-We are a collaborative group of students and researchers passionate about immersive media and interactive experiences. Our team brings together diverse skills in design, programming, and research to push the boundaries of VR and AR.
-
-{% include section.html %}
-
 {% include list.html data="members" component="portrait" 
   filter="role == 'director'" %}
 {% include list.html data="members" component="portrait" 
@@ -18,17 +12,32 @@ We are a collaborative group of students and researchers passionate about immers
 
 <hr />
 
+{% comment %}
+  Members are listed by role, in the order below. To add someone new, set their
+  `role` in _members/<name>.md; they will appear in the right group automatically.
+  Order: PhD -> postdoc -> master's -> research staff -> undergraduate.
+{% endcomment %}
+
 {% include list.html data="members" component="portrait"
-  filter="role != 'director' and role != 'prof' and role != 'friend' and role != 'mascot' and role !='alumni'" %}
+  filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'grad'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'staff'" %}
+{% include list.html data="members" component="portrait"
+  filter="role == 'undergrad'" %}
 
 <hr />
 
 {% include list.html data="members" component="portrait"
   filter="role == 'mascot'" %}
 
-{% include section.html dark=true %}
+{% include section.html dark=true style="gray" %}
 
-# {% include icon.html icon="fa-solid fa-users" %}Alumni
+## {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
+{:.section-title}
 
 {% include section.html %}
 

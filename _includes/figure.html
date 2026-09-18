@@ -1,10 +1,31 @@
+{% comment %}
+  alt text: explicit alt, else empty when a caption already describes the
+  image (so screen readers don't read it twice), else a name built from the
+  file name (images/home/lab-digital-twin.jpg -> "Lab digital twin")
+{% endcomment %}
+{% assign figure_name = include.image | split: "/" | last | split: "." | first
+  | replace: "-", " " | replace: "_", " " | capitalize
+%}
+{% if include.alt %}
+  {% assign figure_alt = include.alt %}
+{% elsif include.caption %}
+  {% assign figure_alt = "" %}
+{% else %}
+  {% assign figure_alt = figure_name %}
+{% endif %}
+
+{% if include.link %}
+  {% assign figure_tag = "a" %}
+{% else %}
+  {% assign figure_tag = "div" %}
+{% endif %}
+
 <figure class="figure">
-  <a
+  <{{ figure_tag }}
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     class="figure-image"
-    aria-label="{{ include.caption | default: "figure link" | regex_strip }}"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
@@ -12,11 +33,11 @@
         width: {{ include.width | default: "auto" }};
         max-height: {{ include.height | default: "unset" }};
       "
-      alt="{{ include.caption | default: "figure image" | regex_strip }}"
+      alt="{{ figure_alt | strip_html | strip_newlines | xml_escape }}"
       loading="lazy"
       {% include fallback.html %}
     >
-  </a>
+  </{{ figure_tag }}>
   {% if include.caption %}
     <figcaption class="figure-caption">
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}

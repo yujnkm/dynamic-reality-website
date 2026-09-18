@@ -70,11 +70,15 @@ header a {
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
   color: var(--text);
   appearance: none;
+  cursor: pointer;
   transition: background var(--transition);
 }
 
@@ -84,13 +88,13 @@ header a {
   left: 50%;
   top: 50%;
   color: var(--text);
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
 }
 
-.nav-toggle:checked:after {
+.nav-toggle[aria-expanded="true"]:after {
   content: "\f00d";
 }
 
@@ -120,14 +124,20 @@ header:not([data-big]) {
       display: flex;
     }
 
-    .nav-toggle:not(:checked) + nav {
+    .nav-toggle[aria-expanded="false"] + nav {
       display: none;
     }
 
     nav {
       align-items: flex-end;
       flex-direction: column;
+      gap: 0;
       width: 100%;
+    }
+
+    // taller rows so each link is a comfortable thumb target
+    nav > a {
+      padding: 12px 5px;
     }
   }
 }
@@ -168,6 +178,6 @@ header[data-big] {
 }
 
 header.background {
-  background-color: #67d2a0;
+  background-color: #282828;
   background-size: cover;
 }

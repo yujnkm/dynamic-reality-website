@@ -1,17 +1,20 @@
 # site properties and page defaults
-title: 
+title: Dynamic Reality Lab
+# logo already contains the name; do not repeat it as text in the header
+show-title: false
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+description: The Dynamic Reality Lab (DRL) at the University of Nebraska–Lincoln explores how to enhance human interaction in the physical world through spatial computing and wide-area augmented reality.
 proofer: false
 
 # site social media and other links
 links:
   email: dynamicrealitylab@gmail.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  orcid: 0000-0003-0903-8999
+  google-scholar: U6_SdvMAAAAJ
   github: yujnkm
   twitter: yujnkm
-  youtube: yujnkm
+  # quoted: a bare value starting with @ is reserved in YAML
+  youtube: "@yujnkm"
 
 ### jekyll settings
 
@@ -36,10 +39,10 @@ defaults:
 collections:
   # generate page for each member
   members:
-    output: true
+    output: false
   # generate page for each post
   posts:
-    output: true
+    output: false
 
 # jekyll plugins
 plugins:
@@ -68,4 +71,3 @@ include:
 exclude:
   - README.md
   - LICENSE.md
-  - CITATION.cff

@@ -1,6 +1,8 @@
 ---
 ---
 
+$narrow: 500px;
+
 ul,
 ol {
   margin: 20px 0;
@@ -20,5 +22,12 @@ li {
   ul,
   ol {
     margin: 0;
+  }
+}
+
+// justified text leaves big gaps between words on short phone-width lines
+@media (max-width: $narrow) {
+  li {
+    text-align: left;
   }
 }

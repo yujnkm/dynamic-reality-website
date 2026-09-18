@@ -1,0 +1,35 @@
+{% comment %}
+  affiliation logos, in display order. each entry is file:height:alt:variants
+  - height: desktop display height in px, tuned so the logos look balanced
+  - variants: "themed" swaps between <file>-light.png and <file>-dark.png with
+    the theme, "single" uses <file>.png in both
+  "badge" draws the School of Computing mark in css, since no official artwork
+  exists for it.
+{% endcomment %}
+{% capture logos -%}
+  big-ten:56:Big Ten Academic Alliance:themed,
+  unl:72:University of Nebraska–Lincoln:themed,
+  nebraska-engineering:60:Nebraska Engineering:single,
+  badge,
+  drl:52:Dynamic Reality Lab:themed
+{%- endcapture %}
+
+{% assign base = "/images/logos/partners/" | relative_url %}
+
+<div class="partner-logos">
+  {% assign logos = logos | split: "," %}
+  {% for logo in logos %}
+    {% assign parts = logo | strip | split: ":" %}
+    {% if parts[0] == "badge" %}
+      <span class="partner-badge" role="img" aria-label="Nebraska School of Computing">
+        <span class="partner-badge-top">Nebraska</span>
+        <span>School of Computing</span>
+      </span>
+    {% elsif parts[3] == "themed" %}
+      <img class="logo-light" src="{{ base }}{{ parts[0] }}-light.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+      <img class="logo-dark" src="{{ base }}{{ parts[0] }}-dark.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+    {% else %}
+      <img src="{{ base }}{{ parts[0] }}.png" alt="{{ parts[2] }}" style="--h: {{ parts[1] }}" loading="lazy">
+    {% endif %}
+  {% endfor %}
+</div>

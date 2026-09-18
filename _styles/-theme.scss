@@ -4,6 +4,9 @@
 // colors
 [data-dark="false"] {
   --primary: #0795d9;
+  // darker shade of primary for text links and button fills; primary itself is
+  // only ~3.3:1 on white, under the 4.5:1 text guideline
+  --link: #0369a1;
   --secondary: #7dd3fc;
   --text: #000000;
   --background: #ffffff;
@@ -12,9 +15,12 @@
   --gray: #808080;
   --dark-gray: #404040;
   --overlay: #00000020;
+  --venue: #b45309;
+  --year: #15803d;
 }
 [data-dark="true"] {
   --primary: #0795d9;
+  --link: #0795d9;
   --secondary: #075985;
   --text: #ffffff;
   --background: #181818;
@@ -23,9 +29,21 @@
   --gray: #808080;
   --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
+  --venue: #f59e0b;
+  --year: #4ade80;
 }
 
 :root {
+  // layout
+  // max width of the content inside a section; the section itself stays
+  // full-bleed so the alternating backgrounds still span the window
+  --page: 1200px;
+  --page-medium: 1500px;
+  // side gutter, used once the window is narrower than the page width above.
+  // fluid so phones aren't spending ~20% of a 360px screen on padding
+  --gutter: clamp(20px, 5vw, 40px);
+  --section-padding: 40px;
+
   // font families
   --title: "Barlow", sans-serif;
   --heading: "Barlow", sans-serif;

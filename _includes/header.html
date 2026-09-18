@@ -1,8 +1,8 @@
 {% assign image = page.header | default: site.header | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% assign svg = "images/logo.svg" | file_exists %}
-{% assign png = "images/logo.png" | file_exists %}
+{% assign svg = nil %}
+{% assign png = "images/logos/DRL_black_background_full.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
@@ -22,7 +22,7 @@
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          <img src="{{ logo | relative_url | uri_escape }}" alt="{{ site.title | xml_escape }} home">
         {% endif %}
       </span>
     {% endif %}
@@ -38,20 +38,30 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <button
+    class="nav-toggle"
+    type="button"
+    aria-label="Menu"
+    aria-expanded="false"
+    aria-controls="site-nav"
+  ></button>
 
-  <nav>
+  <nav id="site-nav" aria-label="Main">
+    {% assign current = page.url %}
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for navpage in pages %}
+      {% if navpage.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ navpage.dir | relative_url | uri_escape }}"
+          data-tooltip="{{ navpage.nav.tooltip | xml_escape }}"
+          {% if current == navpage.url %}
+            aria-current="page"
+          {% endif %}
         >
-          {{ page.title }}
+          {{ navpage.title }}
         </a>
       {% endif %}
     {% endfor %}
