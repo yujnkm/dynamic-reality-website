@@ -6,6 +6,11 @@
   border: 0;
   border-radius: var(--rounded);
   box-shadow: var(--shadow);
+  background: #ffffff url("../images/contact/loading.gif") center no-repeat;
+}
+
+[data-dark=true] .map {
+  background: #181818 url("../images/contact/loading-dark.gif") center no-repeat;
 }
 
 /*# sourceMappingURL=map.css.map */
