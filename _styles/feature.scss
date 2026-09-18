@@ -30,7 +30,11 @@ $wrap: 800px;
   flex-grow: 1;
 }
 
+// a heading for page structure, spaced like the paragraph it used to be
 .feature-title {
+  margin: 20px 0;
+  letter-spacing: normal;
+  line-height: var(--spacing);
   font-size: var(--large);
   text-align: center;
   font-family: var(--heading);

@@ -73,23 +73,23 @@ The Dynamic Reality Lab started in early 2024, taking shape at UC Santa Barbara 
 
 We look for students who are excited about pushing on what reality can be, and who want to build and test things rather than only read about them. Everyone who joins the lab goes through the same three steps.
 
-<div class="steps">
-  <div class="step">
-    <span class="step-number">1</span>
-    <span class="step-title">Read about our research</span>
+<ol class="steps">
+  <li class="step">
+    <span class="step-number" aria-hidden="true">1</span>
+    <h3 class="step-title">Read about our research</h3>
     <p>Look through our <a href="{{ "/projects" | relative_url }}">projects</a> and <a href="{{ "/research" | relative_url }}">research</a> pages. Make sure the questions we work on are ones you actually want to spend your time on.</p>
-  </div>
-  <div class="step">
-    <span class="step-number">2</span>
-    <span class="step-title">Review our expectations</span>
+  </li>
+  <li class="step">
+    <span class="step-number" aria-hidden="true">2</span>
+    <h3 class="step-title">Review our expectations</h3>
     <p>Read the <a href="https://docs.google.com/document/d/1Oc43plLjfN_RZUZMSo-EXqYnJva2aBJNaZ7StTrD-JQ/edit?usp=sharing">Expectations Document</a>. It covers how we work together, how project ownership is handled, and our project release policy. Joining means you have read it and agree to it.</p>
-  </div>
-  <div class="step">
-    <span class="step-number">3</span>
-    <span class="step-title">Submit the interest form</span>
+  </li>
+  <li class="step">
+    <span class="step-number" aria-hidden="true">3</span>
+    <h3 class="step-title">Submit the interest form</h3>
     <p>A lab member reviews every submission. We will email you to set up a Zoom conversation if your background looks like a good fit.</p>
-  </div>
-</div>
+  </li>
+</ol>
 
 {%
   include button.html

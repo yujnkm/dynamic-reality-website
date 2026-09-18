@@ -36,7 +36,8 @@ nav:
 
 {% include section.html dark=true style="gray" %}
 
-# {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
+## {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
+{:.section-title}
 
 {% include section.html %}
 

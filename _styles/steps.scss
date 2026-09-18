@@ -9,6 +9,8 @@
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 30px;
   margin: 40px 0;
+  padding: 0;
+  list-style: none;
   text-align: left;
 }
 
@@ -17,7 +19,9 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  margin: 0;
   padding: 24px;
+  text-align: left;
   background: var(--background);
   border-radius: var(--rounded);
   box-shadow: var(--shadow);
@@ -38,7 +42,10 @@
   font-weight: var(--bold);
 }
 
+// a heading for page structure, styled like the plain text it used to be
 .step-title {
+  margin: 0;
+  letter-spacing: normal;
   font-family: var(--heading);
   font-size: var(--large);
   font-weight: var(--semi-bold);

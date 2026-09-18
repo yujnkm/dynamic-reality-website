@@ -22,6 +22,16 @@ h1 {
   text-align: center;
 }
 
+// an h2 (the page's own title is the h1) that looks like a centered h1, for
+// headings that open a full-width section
+h2.section-title {
+  margin: 40px 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 h2 {
   font-size: 1.6rem;
   padding-bottom: 5px;

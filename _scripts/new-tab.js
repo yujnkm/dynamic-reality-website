@@ -10,6 +10,18 @@
       if (link.hostname === window.location.hostname) continue;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
+
+      // tell screen reader users the link opens a new tab. an aria-label
+      // replaces the link's text, so add the note there when there is one
+      const note = "(opens in new tab)";
+      const label = link.getAttribute("aria-label");
+      if (label) link.setAttribute("aria-label", `${label} ${note}`);
+      else if (link.getAttribute("aria-hidden") !== "true") {
+        const span = document.createElement("span");
+        span.className = "sr-only";
+        span.textContent = ` ${note}`;
+        link.append(span);
+      }
     }
   };
 

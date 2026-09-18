@@ -1,30 +1,40 @@
 {% assign pub = include.pub %}
 
+{% comment %}
+  the thumbnail repeats the title link, so it's hidden from keyboard and
+  screen reader users; the title is a heading so the list can be skimmed
+{% endcomment %}
 <div class="publication">
-  <a
-    {% if pub.project %}
+  {% if pub.project %}
+    <a
       href="{{ pub.project | uri_escape }}"
-    {% endif %}
-    class="publication-image"
-    aria-label="{{ pub.title | regex_strip }}"
-  >
+      class="publication-image"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+  {% else %}
+    <div class="publication-image">
+  {% endif %}
     <img
       src="{{ pub.image | relative_url | uri_escape }}"
-      alt="{{ pub.title | regex_strip }}"
+      alt=""
       loading="lazy"
       {% include fallback.html %}
     >
-  </a>
+  {% if pub.project %}
+    </a>
+  {% else %}
+    </div>
+  {% endif %}
 
   <div class="publication-text">
-    <a
+    <h2 class="publication-title">
       {% if pub.project %}
-        href="{{ pub.project | uri_escape }}"
+        <a href="{{ pub.project | uri_escape }}">{{ pub.title }}</a>
+      {% else %}
+        {{ pub.title }}
       {% endif %}
-      class="publication-title"
-    >
-      {{ pub.title }}
-    </a>
+    </h2>
 
     <div class="publication-authors">
       {{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}

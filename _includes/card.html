@@ -1,16 +1,20 @@
 {{ " " }}
+{% comment %}
+  the image and the title point to the same place; only the title link is
+  exposed to keyboard and screen reader users, so each card is one stop
+{% endcomment %}
 <div class="card" data-style="{{ include.style }}">
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
     class="card-image"
-    target="_blank"
+    tabindex="-1"
+    aria-hidden="true"
   >
     <img
       src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
+      alt=""
       loading="lazy"
       {% include fallback.html %}
     >
@@ -18,18 +22,18 @@
 
   <div class="card-text">
     {% if include.title %}
-      <a
-        {% if include.link %}
-          href="{{ include.link | relative_url | uri_escape }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip | xml_escape }}"
-        {% endif %}
-        class="card-title"
-        target="_blank"
-      >
-        {{ include.title }}
-    </a>
+      <h2 class="card-title">
+        <a
+          {% if include.link %}
+            href="{{ include.link | relative_url | uri_escape }}"
+          {% endif %}
+          {% if include.tooltip %}
+            data-tooltip="{{ include.tooltip | xml_escape }}"
+          {% endif %}
+        >
+          {{ include.title }}
+        </a>
+      </h2>
     {% endif %}
 
     {% if include.subtitle %}

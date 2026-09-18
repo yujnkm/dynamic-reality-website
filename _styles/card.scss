@@ -91,9 +91,16 @@
   margin: 0 !important;
 }
 
+// a heading for page structure, styled like the plain link it used to be
 .card-title {
+  margin: 0;
+  padding: 0;
+  border: none;
   font-family: var(--heading);
+  font-size: inherit;
   font-weight: var(--semi-bold);
+  letter-spacing: normal;
+  text-align: inherit;
 }
 
 .card-subtitle {

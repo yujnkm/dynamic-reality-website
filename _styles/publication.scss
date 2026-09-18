@@ -36,7 +36,13 @@ $wrap: 700px;
   overflow-wrap: break-word;
 }
 
+// a heading for page structure, styled like the plain link it used to be
 .publication-title {
+  margin: 0;
+  padding: 0;
+  border: none;
+  letter-spacing: normal;
+  line-height: inherit;
   font-family: var(--heading);
   font-size: var(--large);
   font-weight: var(--semi-bold);
