@@ -2,6 +2,8 @@
   alt text: explicit alt, else empty when a caption already describes the
   image (so screen readers don't read it twice), else a name built from the
   file name (images/home/lab-digital-twin.jpg -> "Lab digital twin")
+  cutout=true: for images with transparent areas; the shadow follows the
+  visible pixels instead of framing the whole rectangle
 {% endcomment %}
 {% assign figure_name = include.image | split: "/" | last | split: "." | first
   | replace: "-", " " | replace: "_", " " | capitalize
@@ -20,7 +22,7 @@
   {% assign figure_tag = "div" %}
 {% endif %}
 
-<figure class="figure">
+<figure class="figure{% if include.cutout %} figure-cutout{% endif %}">
   <{{ figure_tag }}
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"

@@ -59,7 +59,8 @@ The Dynamic Reality Lab occupies 1,200 square feet in Nebraska Hall (NH W192), b
 
 {%
   include figure.html
-  image="images/contact/tamu-to-nebraska-hall.jpg"
+  image="images/contact/tamu-to-nebraska-hall.webp"
+  cutout=true
   caption="On the **left** is the former DRL site at Texas A&M University; on the **right** is Nebraska Hall, where DRL is currently located."
 %}
 
