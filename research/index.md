@@ -1,5 +1,6 @@
 ---
 title: Research
+description: Publications from the Dynamic Reality Lab on augmented and virtual reality, biometric sensing, and human performance in wide-area XR.
 nav:
   order: 1
   tooltip: Published works

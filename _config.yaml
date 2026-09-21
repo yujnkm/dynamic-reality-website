@@ -3,7 +3,7 @@ title: Dynamic Reality Lab
 # logo already contains the name; do not repeat it as text in the header
 show-title: false
 subtitle: 
-description: The Dynamic Reality Lab (DRL) at the University of Nebraska–Lincoln explores how to enhance human interaction in the physical world through spatial computing and wide-area augmented reality.
+description: The Dynamic Reality Lab (DRL), directed by Prof. You-Jin Kim, explores how we can enhance human interaction in the physical world through spatial computing and wide-area augmented reality. Towards our goal of more human-centered computing, we believe next-generation interfaces must seamlessly blend the digital and the physical.
 proofer: false
 
 # site social media and other links
@@ -12,7 +12,10 @@ links:
   orcid: 0000-0003-0903-8999
   google-scholar: U6_SdvMAAAAJ
   github: yujnkm
-  twitter: yujnkm
+  bluesky: dynamicrealitylab.bsky.social
+  # lab account, not the PI's personal handle
+  x: DynamicXRLab
+  instagram: dynamicrealitylab
   # quoted: a bare value starting with @ is reserved in YAML
   youtube: "@yujnkm"
 

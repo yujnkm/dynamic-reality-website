@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+description: How to reach the Dynamic Reality Lab in Nebraska Hall at UNL, including email, lab location and facilities, and how to join as a PhD or current UNL student.
 nav:
   order: 5
   tooltip: Email, joining the lab, and where to find us
@@ -118,7 +119,7 @@ For local context, a one-bedroom loft in downtown Lincoln runs about $1,090 per 
 
 ### Undergraduate and Current UNL Students {#unl-students}
 
-We regularly bring UNL students onto active projects. Start with the same [interest form](https://forms.gle/QrrC1ytTcdz8eCjq9), and reach out to any lab member whose work interests you.
+We regularly bring UNL students onto active projects. The same three steps apply, so start with the interest form above, and reach out to any lab member whose work interests you.
 
 - **Research is not coursework.** There is no syllabus and no set of expected answers. You develop your own direction, with guidance from a mentor.
 - **Classes are still a good entry point.** Spatial Interaction and Simulation, Generative AI and Design, Computer Graphics, Wide-Area AR + Interactive Narrative, or Advanced Topics in Software Engineering all lead somewhere.

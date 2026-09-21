@@ -1,5 +1,6 @@
 ---
 title: Team
+description: The people of the Dynamic Reality Lab at the University of Nebraska–Lincoln, including director You-Jin Kim, PhD students, researchers, staff, and alumni.
 nav:
   order: 3
   tooltip: About our team
