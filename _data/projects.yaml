@@ -10,7 +10,7 @@
   group: featured
   image: images/projects/on-the-go-with-ar.jpg
   link: https://www.yujnkm.com/projects/on-the-go-with-ar
-  description: AR task demands change what people notice around them. This study traced how attention splits between physical surroundings and virtual content while on the move.
+  description: Denser AR annotations during a walking search pulled attention to the overlay and left people less aware of uncommon objects nearby.
 
 - title: NeuResonance
   subtitle: "ACM CHI 2025 - Yokohama, Japan"
@@ -94,7 +94,7 @@
   group: featured
   image: images/projects/wide-area-ar-1.jpg
   link: https://www.yujnkm.com/projects/wide-area-ar-1
-  description: Outdoor search performance under changing light, measured through cognitive load and spatial learning as users hunt for virtual items hidden behind real objects.
+  description: In an outdoor AR treasure hunt, lighting, dual-tasking, and practice reshaped search, and virtual objects drew more attention than physical ones.
 
 - title: Climate Simulation
   subtitle: "ACM SIGGRAPH SPARKS - Seoul, Korea"

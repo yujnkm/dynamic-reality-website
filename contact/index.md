@@ -21,7 +21,7 @@ Thinking about joining us? Have a look around the lab first, then read [Joining 
 
 {%
   include figure.html
-  image="images/contact/location_01.jpg"
+  image="images/contact/Nebraska_Hall.png"
   caption="Nebraska Hall [NH] - Room W192 <br>
   900 N 16th St, Lincoln, NE 68508"
 %}
@@ -37,7 +37,7 @@ Thinking about joining us? Have a look around the lab first, then read [Joining 
 {% include cols.html col1=col1 col2=col2 %}
 
 {% capture col1 %}
-The lab sits on the west side of Nebraska Hall on UNL's City Campus, running along North 16th Street. If you are driving, Lot 10 is directly across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center immediately to the south, and Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, is across 16th Street to the southwest.
+The lab is located on the west side of Nebraska Hall along North 16th Street on UNL's City Campus, directly facing Kiewit Hall. If you are driving, parking is available in Lot 10, located just across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center immediately to the south, while Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, sits across 16th Street to the southwest.
 {% endcapture %}
 
 {% capture col2 %}

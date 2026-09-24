@@ -18,6 +18,13 @@
 
 .card[data-style="project"] {
   max-width: 100%;
+  align-self: stretch;
+}
+
+// every row as tall as the tallest, so all project cards share one height;
+// the text below is clamped so a long title or description can't grow it
+.grid:has(> .card[data-style="project"]) {
+  grid-auto-rows: 1fr;
 }
 
 .card[data-style="project"] .card-image img {
@@ -38,6 +45,14 @@
   font-size: var(--large);
 }
 
+.card[data-style="project"] .card-title,
+.card[data-style="project"] .card-subtitle {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 // venue/location line: small caps-ish accent, so the eye lands on it before the
 // description without shouting
 .card[data-style="project"] .card-subtitle {
@@ -54,6 +69,11 @@
   font-size: 0.9rem;
   text-align: left;
   color: var(--dark-gray);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
 }
 
 .card[data-style="small"] {
