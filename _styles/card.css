@@ -15,6 +15,11 @@
 
 .card[data-style=project] {
   max-width: 100%;
+  align-self: stretch;
+}
+
+.grid:has(> .card[data-style=project]) {
+  grid-auto-rows: 1fr;
 }
 
 .card[data-style=project] .card-image img {
@@ -35,6 +40,14 @@
   font-size: var(--large);
 }
 
+.card[data-style=project] .card-title,
+.card[data-style=project] .card-subtitle {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .card[data-style=project] .card-subtitle {
   margin-top: 0 !important;
   font-size: 0.75rem;
@@ -49,6 +62,11 @@
   font-size: 0.9rem;
   text-align: left;
   color: var(--dark-gray);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
 }
 
 .card[data-style=small] {
