@@ -15,7 +15,7 @@
 
 .publication-image img {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 7/10;
   object-fit: cover;
   border-radius: var(--rounded);
 }
