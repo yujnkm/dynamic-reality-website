@@ -3,7 +3,7 @@
   group: featured
   image: images/projects/blended-memory.jpg
   link: https://www.yujnkm.com/projects/blended-memory
-  description: In a dense mixed-reality office, people remembered virtual objects better than physical ones, and cueing helped modestly.
+  description: In a dense mixed-reality office, people remembered virtual objects better than physical ones, and advance cueing modestly improved recall.
 
 - title: SABER
   subtitle: "IEEE VR 2026 - Daegu, Korea"
@@ -17,14 +17,14 @@
   group: featured
   image: images/projects/on-the-go-with-ar.jpg
   link: https://www.yujnkm.com/projects/on-the-go-with-ar
-  description: Denser AR annotations during a walking search pulled attention to the overlay and left people less aware of uncommon objects nearby.
+  description: Denser AR annotations during a walking search pulled more attention to the overlay and left people less aware of uncommon objects around them.
 
 - title: NeuResonance
   subtitle: "ACM CHI 2025 - Yokohama, Japan"
   group: featured
   image: images/projects/neuresonance.jpg
   link: https://www.yujnkm.com/projects/neuresonance
-  description: Multimodal feedback improved inter-brain synchronization more than visual or haptic feedback did on its own.
+  description: Multimodal feedback improved inter-brain synchronization between collaborators more than visual or haptic feedback did on its own.
 
 - title: Beyond Reality
   subtitle: "PhD Dissertation - Santa Barbara, California"
@@ -45,7 +45,7 @@
   group: featured
   image: images/projects/reality-distortion-room.jpg
   link: https://www.yujnkm.com/projects/reality-distortion-room
-  description: Small, deliberate visual distortions can steer how people walk through a room, without a word of verbal or written instruction.
+  description: Small, deliberate projected visual distortions can steer how people walk through a room, without a single word of verbal or written instruction.
 
 - title: Dynamic Theater
   subtitle: "ACM VRST 2023 - Christchurch, New Zealand"
@@ -108,11 +108,11 @@
   group: featured
   image: images/projects/climate-simulation.jpg
   link: https://www.yujnkm.com/projects/climate-simulation
-  description: An interactive outdoor AR narrative built to convey the scale of major environmental events at something close to their real size.
+  description: An interactive outdoor AR climate narrative built to convey the scale of major environmental events at something close to their real-world size.
 
 - title: ATLAS
   subtitle: "Magic Leap Developer - Plantation, Florida"
   group: featured
   image: images/projects/atlas.jpg
   link: https://www.yujnkm.com/projects/atlas
-  description: Large-scale AR interaction in ordinary indoor rooms, using spatial design to work around the field-of-view limits of current headsets.
+  description: Large-scale AR interaction in ordinary indoor rooms, using spatial design to work around the narrow field-of-view limits of today's AR headsets.
