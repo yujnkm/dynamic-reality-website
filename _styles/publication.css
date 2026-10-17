@@ -44,10 +44,20 @@
 .publication-short {
   color: var(--venue);
   font-weight: var(--semi-bold);
+  white-space: nowrap;
+}
+
+.publication-links a {
+  white-space: nowrap;
 }
 
 .publication-award {
-  margin-right: 5px;
+  display: block;
+  margin: 0 0 6px;
+}
+
+.publication-presented .nowrap {
+  white-space: nowrap;
 }
 
 .publication-year {

@@ -1,3 +1,14 @@
+p,
+li {
+  text-wrap: pretty;
+}
+
+@media (min-width: 700px) {
+  main p a,
+  main li a {
+    white-space: nowrap;
+  }
+}
 p {
   margin: 20px 0;
   text-align: justify;
