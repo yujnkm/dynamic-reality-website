@@ -78,21 +78,7 @@
   }
 }
 
-// clickable card (member has a `link`): keep text colors, lift photo on hover
+// clickable card (member has a `link`): looks the same as a plain card
 a.portrait {
   color: var(--text);
-}
-
-a.portrait .portrait-image {
-  transition: transform var(--transition), box-shadow var(--transition);
-}
-
-a.portrait:hover .portrait-image,
-a.portrait:focus-visible .portrait-image {
-  transform: scale(1.04);
-  box-shadow: 0 0 0 4px var(--link);
-}
-
-a.portrait:hover .portrait-name {
-  color: var(--link);
 }
