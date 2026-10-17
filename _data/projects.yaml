@@ -1,3 +1,10 @@
+- title: Blended Memory
+  subtitle: "IEEE TVCG 2026 - Bari, Italy"
+  group: featured
+  image: images/projects/blended-memory.jpg
+  link: https://www.yujnkm.com/projects/blended-memory
+  description: In a dense mixed-reality office, people remembered virtual objects better than physical ones, and cueing helped modestly.
+
 - title: SABER
   subtitle: "IEEE VR 2026 - Daegu, Korea"
   group: featured

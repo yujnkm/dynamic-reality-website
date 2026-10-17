@@ -10,13 +10,22 @@
 {% assign type = site.data.types[member.role] %}
 
 {% comment %}
-  the photo gets empty alt because the name is printed right under it
+  the photo gets empty alt because the name is printed right under it.
+  a member with a `link` in their front matter gets a clickable card.
 {% endcomment %}
 <div class="portrait-wrapper">
+  {% if member.link %}
+  <a
+    href="{{ member.link | uri_escape }}"
+    class="portrait"
+    data-style="{{ include.style }}"
+  >
+  {% else %}
   <div
     class="portrait"
     data-style="{{ include.style }}"
   >
+  {% endif %}
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
@@ -46,5 +55,9 @@
         {{ member.affiliation }}
       </span>
     {% endif %}
+  {% if member.link %}
+  </a>
+  {% else %}
   </div>
+  {% endif %}
 </div>
