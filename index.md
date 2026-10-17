@@ -71,14 +71,14 @@ This line of work brings **deep neural networks** and avatar AI agents into **im
 
 ## DRL Activities
 
-- **August 2026:** Our new IEEE TVCG journal paper will be presented at ISMAR 2026 in Bari, Italy.
+- **August 2026:** Our new IEEE TVCG journal paper will be presented at ISMAR 2026 in Bari, Italy. 🏆
 - **June 2026:** Our LiDAR digital-twin scanning work made the front page of the local newspaper! 📰
 - **May 2026:** Four new full-time students joined the research team on May 18, 2026.
 - **April 2026:** Presented at the ACM CHI 2026, Augmented Reality On-the-Move workshop.
 - **March 2026:** Presented SABER (Spatial Attention & Brain + XR) research at IEEE VR.
 - **February 2026:** Presented at the Nebraska, School of Computing PhD Students Session seminar.
 - **January 2026:** Lab operations successfully relocated to a newly renovated Nebraska Hall.
-- **November 2025:** Received an award 🏆 at ACM MobiHoc for our mobile AR cognitive security research.
+- **November 2025:** Best Paper Award at ACM MobiHoc for our mobile AR cognitive security research. 🏆
 - **October 2025:** Presented "Beyond Reality" at the ATLAS Colloquium, CU Boulder.
 
 {% capture col1 %}
