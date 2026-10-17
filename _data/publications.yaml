@@ -3,34 +3,36 @@
 
 - title: Exploring Object Recall in an Object-Rich AR Office Scene
   image: images/research/object-recall-ar-office.jpg
-  authors: Sangita Kunapuli, Shane Dirksen, Radha Kumaran, **You-Jin Kim**, Misha Sra, Tobias Höllerer
-  venue: IEEE Transactions on Visualization and Computer Graphics
+  authors: Sangita Kunapuli, Shane Dirksen, Radha Kumaran, Yanxiu Jin, **You-Jin Kim**, Misha Sra, Tobias Höllerer
+  venue: IEEE Transactions on Visualization and Computer Graphics, Vol. 32
   short: IEEE TVCG 2026
-  presented: "IEEE ISMAR 2026 - [Evaluation Session] October 8, 2026, Bari, Italy"
-  doi:
-    text: 10.1109/TVCG.2026.3203093
-    link: https://www.yujnkm.com/home
+  award: "🏆 Best Paper Award – Honorable Mention, IEEE ISMAR 2026"
+  presented: "IEEE ISMAR 2026 - [Adaptive and Personalized XR Session] October 9, 2026, Bari, Italy"
   arxiv:
-    text: 10.48550/arXiv.2511.00000
-    link: https://www.yujnkm.com/home
+    text: 10.48550/arXiv.2610.18183
+    link: https://doi.org/10.48550/arXiv.2610.18183
   year: 2026
-  id: NSF-AR-VisualSaliency
+  id: NSF-AR-BlendedMemory
   acceptance: 15.92%
   type: Journal Paper
-  tags: [Journal Paper, Magic Leap 2, AR, Memory Recall, Visual Saliency, Visual Cue]
+  project: https://www.yujnkm.com/projects/blended-memory
+  tags: [Journal Paper, Magic Leap 2, AR, Memory Recall, Visual Saliency, Visual Cue, Cognitive Study]
 
-- title: "Moving Beyond the Flat Screen: Opportunities and Challenges of Extended Reality for Studying Human Brain and Behaviors"
+- title: "Moving Beyond the Flat Screen: Opportunities and Challenges of Extended Reality for Studying Human Brain and Behavior"
   image: images/research/beyond-flat-screen.jpg
   authors: Tom Bullock, Radha Kumaran, **You-Jin Kim**, Emily Machniak, Tobias Höllerer and Barry Giesbrecht
-  venue: IEEE International Symposium on Mixed and Augmented Reality
+  venue: IEEE International Symposium on Mixed and Augmented Reality Adjunct
   short: IEEE ISMAR 2026
   track: Workshop
-  presented: "IEEE ISMAR 2026 - [Workshop 02: NeuroXR] October 6, 2026, Bari, Italy (Short Paper Adjunct Proceeding)"
+  presented: "IEEE ISMAR 2026 - [Workshop 2: NeuroXR] October 6, 2026, Bari, Italy (Short Paper Adjunct Proceeding)"
+  arxiv:
+    text: 10.48550/arXiv.2610.19199
+    link: https://doi.org/10.48550/arXiv.2610.19199
   year: 2026
-  id: IEEE-ISMAR-W00
+  id: IEEE-ISMAR26-W02
   acceptance: N/A
   type: Short Paper
-  tags: [Short Paper, Navigation, XR, Education, Visual Cue, Switching Modality]
+  tags: [Short Paper, XR, EEG, Cognitive Study, Visual Cue, Wide-area, Outdoor]
 
 - title: Challenges and Opportunities for Head-Worn AR Use in Wide-Area Environments
   image: images/research/challenges-ar-wide-area.jpg
@@ -38,13 +40,13 @@
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2026
   track: Workshop
-  presented: "ACM CHI 2026 - [Workshop 42: Next Steps for Augmented Reality On-the-Move] April 16, 2026 Barcelona, Spain"
+  presented: "ACM CHI 2026 - [Workshop 42: Next Steps for AR On-the-Move] April 16, 2026, Barcelona, Spain"
   year: 2026
-  id: ACM-CHI-W42
+  id: ACM-CHI26-W42
   acceptance: N/A
   type: Workshop Summary
   project: https://hci.plus/sites/ar-on-the-move/
-  tags: [Workshop, Magic Leap 2, AR, Wide-area, Navigation, Visual Cue]
+  tags: [Workshop, Magic Leap 2, AR, Wide-area, Navigation, Visual Cue, Outdoor]
 
 - title: "SABER: Spatial Attention, Brain, Extended Reality"
   image: images/research/saber.jpg
@@ -64,26 +66,26 @@
   acceptance: 17.00%
   type: Full Paper
   project: https://www.yujnkm.com/projects/saber
-  tags: [Full Paper, Vive Pro Eye, VR, Visual Cue, Visual Saliency, Memory Recall]
+  tags: [Full Paper, Vive Pro Eye, VR, Visual Cue, Visual Saliency, Memory Recall, EEG]
 
 - title: Modeling Object Attention in Mobile AR for Intrinsic Cognitive Security
   image: images/research/object-attention-ar.jpg
   authors: Shane Dirksen, Radha Kumaran, **You-Jin Kim**, Yilin Wang, Tobias Höllerer
   venue: ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
   short: ACM MobiHoc 2025
-  award: "🏆"
+  award: "🏆 Top Ranked Publications Award"
   presented: "ACM MobiHoc 2025 - [Spatial Awareness Sessions] October 23, 2025, Houston, Texas (Short Paper Adjunct Proceeding)"
   doi:
     text: 10.1145/3704413.3765308
     link: https://doi.org/10.1145/3704413.3765308
   arxiv:
-    text: 10.48550/arXiv.2511.16805
-    link: https://doi.org/10.48550/arXiv.2511.16805
+    text: 10.48550/arXiv.2510.24004
+    link: https://doi.org/10.48550/arXiv.2510.24004
   year: 2025
   id: NSF-AR-ObjectAttention
   acceptance: 23.00%
   type: Short Paper
-  tags: [Short Paper, Magic Leap 2, AR, Visual Saliency, Visual Cue, Navigation]
+  tags: [Short Paper, Magic Leap 2, AR, Visual Saliency, Visual Cue, Navigation, Outdoor]
 
 - title: Scene Awareness While Using Multiple Navigation Aids in AR Search
   image: images/research/scene-awareness-navigation-aids.jpg
@@ -102,7 +104,7 @@
   id: Poster-SceneAwareness
   acceptance: N/A
   type: Short Paper
-  tags: [Short Paper, HoloLens 2, AR, Navigation, Visual Cue, Memory Recall]
+  tags: [Short Paper, HoloLens 2, AR, Navigation, Visual Cue, Memory Recall, Cognitive Study]
 
 - title: Reconstructing moving object locations in an immersive 3D virtual environment from EEG oscillatory activity
   image: images/research/reconstructing-moving-object-locations.jpg
@@ -120,7 +122,7 @@
   acceptance: N/A
   type: Journal Paper
   project: https://jov.arvojournals.org/article.aspx?articleid=2809312
-  tags: [Journal Paper, Meta Quest 3, VR, Memory Recall, Visual Saliency, Visual Cue]
+  tags: [Journal Paper, Meta Quest 3, VR, Memory Recall, Visual Saliency, Visual Cue, EEG]
 
 - title: Electrophysiological evidence for differential semantic processing of words and objects presented in augmented reality
   image: images/research/EEG-semantic-processing.jpg
@@ -137,7 +139,7 @@
   id: EEG-AR-SemanticProcessing
   acceptance: 10.10%
   type: Journal Paper
-  tags: [Journal Paper, Magic Leap 2, AR, Visual Cue, Memory Recall, Education]
+  tags: [Journal Paper, Magic Leap 2, AR, Visual Cue, Memory Recall, Education, EEG]
 
 - title: "On the Go with AR: Attention to Virtual and Physical Targets while Varying Augmentation Density"
   image: images/research/on-the-go-with-ar.jpg
@@ -156,7 +158,7 @@
   acceptance: 24.90%
   type: Full Paper
   project: https://www.yujnkm.com/projects/on-the-go-with-ar
-  tags: [Full Paper, HoloLens 2, AR, Wide-area, Navigation, Visual Saliency]
+  tags: [Full Paper, HoloLens 2, AR, Wide-area, Navigation, Visual Saliency, Cognitive Study]
 
 - title: "NeuResonance: Exploring Feedback Experiences for Fostering the Inter-brain Synchronization"
   image: images/research/neuresonance.jpg
@@ -175,7 +177,7 @@
   acceptance: 24.90%
   type: Full Paper
   project: https://www.yujnkm.com/projects/neuresonance
-  tags: [Full Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue]
+  tags: [Full Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue, Cognitive Study]
 
 - title: "Demonstrating NeuResonance: Inter-brain Synchronization and Feedback Modalities in Collaboration"
   image: images/research/demonstrating-neuresonance.jpg
@@ -183,7 +185,7 @@
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2025
   track: Interactivity
-  presented: "ACM CHI 2025 - [Interactivity Sessions] April 26–May 1, 2025, Yokohama, Japan (Short Paper Adjunct Proceeding)"
+  presented: "ACM CHI 2025 - [Interactivity] April 26–May 1, 2025, Yokohama, Japan (Short Paper Adjunct Proceeding)"
   doi:
     text: 10.1145/3706599.3721276
     link: https://doi.org/10.1145/3706599.3721276
@@ -195,7 +197,7 @@
   acceptance: N/A
   type: Short Paper
   project: https://www.yujnkm.com/projects/neuresonance
-  tags: [Short Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue]
+  tags: [Short Paper, SAR, EEG, Multiplayers, Switching Modality, Visual Cue, Blended Experience]
 
 - title: "Beyond Reality: Designing Personal Experiences and Interactive Narratives in AR Theater"
   image: images/research/beyond-reality.jpg
@@ -214,7 +216,7 @@
   acceptance: N/A
   type: Dissertation
   project: https://www.yujnkm.com/projects/beyond-reality
-  tags: [Dissertation, SAR, Navigation, Wide-area, Interactive Narrative, AI-Agent]
+  tags: [Dissertation, SAR, Navigation, Wide-area, Interactive Narrative, AI-Agent, Outdoor]
 
 - title: "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater"
   image: images/research/audience-amplified.jpg
@@ -223,8 +225,8 @@
   short: IEEE ISMAR 2024
   presented: "IEEE ISMAR 2024 - [Avatar 2 Session] October 24, 2024, Bellevue, Greater Seattle area"
   doi:
-    text: 10.1145/3706598.3713872
-    link: https://doi.org/10.1145/3706598.3713872
+    text: 10.1109/ISMAR62088.2024.00062
+    link: https://doi.org/10.1109/ISMAR62088.2024.00062
   arxiv:
     text: 10.48550/arXiv.2511.02807
     link: https://doi.org/10.48550/arXiv.2511.02807
@@ -233,7 +235,7 @@
   acceptance: 24.80%
   type: Full Paper
   project: https://www.yujnkm.com/projects/audience-amplified
-  tags: [Full Paper, HoloLens 2, AR, AI-Agent, Multiplayers, Interactive Narrative]
+  tags: [Full Paper, HoloLens 2, AR, AI-Agent, Multiplayers, Interactive Narrative, Blended Experience]
 
 - title: "FractalBrain: A Neuro-interactive Virtual Reality Experience using Electroencephalogram (EEG) for Mindfulness"
   image: images/research/fractalbrain.jpg
@@ -241,7 +243,7 @@
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2024
   track: Interactivity
-  presented: "ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi (Short Paper Adjunct Proceeding)"
+  presented: "ACM CHI 2024 - [Interactivity] May 11–16, 2024, Honolulu, Hawaiʻi (Short Paper Adjunct Proceeding)"
   doi:
     text: 10.1145/3613905.3648667
     link: https://doi.org/10.1145/3613905.3648667
@@ -253,7 +255,7 @@
   acceptance: N/A
   type: Short Paper
   project: https://www.yujnkm.com/projects/fractalbrain
-  tags: [Short Paper, Meta Quest 3, VR, EEG, Switching Modality, Visual Cue]
+  tags: [Short Paper, Meta Quest 3, VR, EEG, Switching Modality, Visual Cue, Mindfulness]
 
 - title: "Spatial Orchestra: Locomotion Music Instruments through Spatial Exploration"
   image: images/research/spatial-orchestra.jpg
@@ -261,7 +263,7 @@
   venue: ACM Conference on Human Factors in Computing Systems
   short: ACM CHI 2024
   track: Interactivity
-  presented: "ACM CHI 2024 - [Interactivity Sessions] May 11–16, 2024, Honolulu, Hawaiʻi (Short Paper Adjunct Proceeding)"
+  presented: "ACM CHI 2024 - [Interactivity] May 11–16, 2024, Honolulu, Hawaiʻi (Short Paper Adjunct Proceeding)"
   doi:
     text: 10.1145/3613905.3648659
     link: https://doi.org/10.1145/3613905.3648659
@@ -273,7 +275,7 @@
   acceptance: N/A
   type: Short Paper
   project: https://www.yujnkm.com/projects/spatial-orchestra
-  tags: [Short Paper, HoloLens 2, AR, Interactive Narrative, Visual Cue, Education]
+  tags: [Short Paper, HoloLens 2, AR, Interactive Narrative, Visual Cue, Education, Locomotion]
 
 - title: "Reality Distortion Room: A Study of User Locomotion Responses to Spatial Augmented Reality Effects"
   image: images/research/reality-distortion-room.jpg
@@ -292,7 +294,7 @@
   acceptance: 28.10%
   type: Full Paper
   project: https://www.yujnkm.com/projects/reality-distortion-room
-  tags: [Full Paper, SAR, Visual Cue, Navigation, Blended Experience, Cognitive Study]
+  tags: [Full Paper, SAR, Visual Cue, Navigation, Blended Experience, Cognitive Study, Locomotion]
 
 - title: "Dynamic Theater: Location-Based Immersive Dance Theater, Investigating User Guidance and Experience"
   image: images/research/dynamic-theater.jpg
@@ -311,7 +313,7 @@
   acceptance: 25.70%
   type: Full Paper
   project: https://www.yujnkm.com/projects/dynamic-theater
-  tags: [Full Paper, HoloLens 2, AR, Interactive Narrative, Wide-area, Navigation]
+  tags: [Full Paper, HoloLens 2, AR, Interactive Narrative, Wide-area, Navigation, Locomotion]
 
 - title: The Impact of Navigation Aids on Search Performance and Object Recall in Wide-Area Augmented Reality
   image: images/research/impact-navigation-aids.jpg
@@ -330,7 +332,7 @@
   acceptance: 26.30%
   type: Full Paper
   project: https://www.yujnkm.com/projects/wide-area-ar-2
-  tags: [Full Paper, HoloLens 2, AR, Navigation, Wide-area, Memory Recall]
+  tags: [Full Paper, HoloLens 2, AR, Navigation, Wide-area, Memory Recall, Outdoor]
 
 - title: Investigating Search Among Physical and Virtual Objects Under Different Lighting Conditions
   image: images/research/search-lighting-conditions.jpg
@@ -349,14 +351,14 @@
   acceptance: 21.60%
   type: Journal Paper
   project: https://www.yujnkm.com/projects/wide-area-ar-1
-  tags: [Journal Paper, HoloLens 2, AR, Navigation, Wide-area, Visual Saliency]
+  tags: [Journal Paper, HoloLens 2, AR, Navigation, Wide-area, Visual Saliency, Outdoor]
 
 - title: Exploring Immersive Mixed Reality Simulations and Its Impact on Climate Change Awareness
   image: images/research/mr-simulation.jpg
   authors: Zhaozhong Wang and **You-Jin Kim**
-  venue: Asian Journal of Applied Science and Engineering, Volume 12, ISSN 2307-9584
+  venue: Asian Journal of Applied Science and Engineering, Volume 11, ISSN 2307-9584
   short: AJASE 2022
-  presented: "ACM SIGGRAPH SPARKS 2023 - [Spatiality in Virtual Reality Session] January 27, 2023, Remote Presentation"
+  presented: "ACM SIGGRAPH SPARKS 2023 - [Spatiality in Virtual Reality Session] January 27, 2023, Online"
   doi:
     text: 10.18034/AJASE.v11i1.3
     link: https://doi.org/10.18034/ajase.v11i1.3
@@ -368,4 +370,4 @@
   acceptance: N/A
   type: Journal Paper
   project: https://www.yujnkm.com/projects/climate-simulation
-  tags: [Journal Paper, HoloLens 2, AR, Education, Interactive Narrative, Wide-area]
+  tags: [Journal Paper, HoloLens 2, AR, Education, Interactive Narrative, Wide-area, Cognitive Study]

@@ -3,6 +3,21 @@
 
 $narrow: 500px;
 
+p,
+li {
+  // avoid one- or two-word last lines
+  text-wrap: pretty;
+}
+
+// short inline links (a few words) never split across two lines on desktop;
+// phones keep normal wrapping so a long link can't overflow the screen
+@media (min-width: 700px) {
+  main p a,
+  main li a {
+    white-space: nowrap;
+  }
+}
+
 p {
   margin: 20px 0;
   text-align: justify;

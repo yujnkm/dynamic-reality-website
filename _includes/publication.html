@@ -42,10 +42,7 @@
 
     <div class="publication-venue">
       <em>{{ pub.venue }}</em>
-      &bull; <span class="publication-short">{{ pub.short }}</span>
-      {% if pub.track %}
-        {{ pub.track }}
-      {% endif %}
+      &bull; <span class="publication-short">{{ pub.short }}{% if pub.track %} {{ pub.track }}{% endif %}</span>
     </div>
 
     {% if pub.presented or pub.award %}
@@ -54,7 +51,7 @@
           <span class="publication-award">{{ pub.award }}</span>
         {% endif %}
         {% if pub.presented %}
-          Presented: {{ pub.presented }}
+          Presented: {{ pub.presented | replace: "(Short Paper Adjunct Proceeding)", '<span class="nowrap">(Short Paper Adjunct Proceeding)</span>' }}
         {% endif %}
       </div>
     {% endif %}

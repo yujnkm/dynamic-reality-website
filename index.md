@@ -1,7 +1,7 @@
 ---
 ---
 
-The Dynamic Reality Lab (DRL), directed by [Prof. You-Jin Kim](https://www.yujnkm.com/home), studies how spatial computing and wide-area augmented reality can improve the way people interact with the physical world. We think the interfaces that come next will have to put digital information into real environments without losing track of how people actually perceive, think, and move.
+The Dynamic Reality Lab (DRL), directed by [Prof. You-Jin Kim](https://www.yujnkm.com/home), studies how spatial computing and wide-area augmented reality can improve the way people interact with the physical world. We think the interfaces that come next will have to put digital information into real environments without losing track of how people perceive, think, and move.
 
 We use sensing hardware such as EEG, EMG, and eye tracking to read physiological signals and cognitive states as they happen, then use what we learn to improve how people work inside extended reality (XR). That work spans adaptive interfaces, spatial collaboration, and interaction design for immersive environments. Our process is iterative: we prototype, build working systems, and run controlled studies to understand human performance in wide-area XR.
 
@@ -12,7 +12,7 @@ The lab is part of the [School of Computing](https://computing.unl.edu/person/yo
 ## Research Areas
 
 {% capture text %}
-We work on the technical and spatial problems of **wide-area outdoor AR** across areas larger than three football fields. Room-scale AR can assume a small, controlled space; outdoors we cannot, so this work focuses on geospatial anchoring and persistent world mapping that hold content in place across large, unstructured terrain. The goal is AR that stays put and stays consistent for several users at once, out in real environments rather than in a lab.
+We work on the technical and spatial problems of **wide-area outdoor AR** across areas larger than three football fields. Room-scale AR can assume a small, controlled space; outdoors we cannot, so this work focuses on geospatial anchoring and persistent world mapping that hold content in place across large, unstructured terrain. The goal is AR that stays put and stays consistent for several users at once, in real places rather than a lab.
 {% endcapture %}
 
 {%

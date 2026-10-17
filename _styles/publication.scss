@@ -48,13 +48,27 @@ $wrap: 700px;
   font-weight: var(--semi-bold);
 }
 
+// venue label (e.g. "IEEE ISMAR 2026 Workshop") never splits across lines
 .publication-short {
   color: var(--venue);
   font-weight: var(--semi-bold);
+  white-space: nowrap;
+}
+
+// keep each DOI / arXiv / project link on one line; the flex row wraps
+// whole links instead
+.publication-links a {
+  white-space: nowrap;
 }
 
 .publication-award {
-  margin-right: 5px;
+  display: block;
+  margin: 0 0 6px;
+}
+
+// keep "(Short Paper Adjunct Proceeding)" together when the line wraps
+.publication-presented .nowrap {
+  white-space: nowrap;
 }
 
 .publication-year {

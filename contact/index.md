@@ -11,7 +11,7 @@ We are always glad to hear from students, collaborators, and anyone curious abou
 - **Research and general inquiries:** [drlab@unl.edu](mailto:drlab@unl.edu)
 - **Questions about joining:** [dynamicrealitylab@gmail.com](mailto:dynamicrealitylab@gmail.com)
 
-Thinking about joining us? Have a look around the lab first, then read [Joining the Lab](#joining-the-lab) along with the notes for [prospective PhD students](#prospective-phd-students) or [undergraduate and current UNL students](#unl-students).
+Thinking about joining? Look around the lab first, then read [Joining the Lab](#joining-the-lab) and the notes for [prospective PhD students](#prospective-phd-students) or [current UNL students](#unl-students).
 
 {% include section.html %}
 
@@ -37,7 +37,7 @@ Thinking about joining us? Have a look around the lab first, then read [Joining 
 {% include cols.html col1=col1 col2=col2 %}
 
 {% capture col1 %}
-The lab is located on the west side of Nebraska Hall along North 16th Street on UNL's City Campus, directly facing Kiewit Hall. If you are driving, parking is available in Lot 10, located just across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center immediately to the south, while Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, sits across 16th Street to the southwest.
+The lab is located on the west side of Nebraska Hall along North 16th Street on UNL's City Campus, directly facing Kiewit Hall. If you are driving, parking is available in Lot&nbsp;10, just across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center to the south, while Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, sits across 16th Street to the southwest.
 
 There is a bus stop (North 16th Street & X Street, SE) located right outside our building and visible directly from our lab windows, making public transit a very convenient option for your visit.
 {% endcapture %}
@@ -54,7 +54,7 @@ There is a bus stop (North 16th Street & X Street, SE) located right outside our
 
 The Dynamic Reality Lab occupies 1,200 square feet in Nebraska Hall (NH W192), built out for controlled spatial computing research. The space holds a data center (W192C), student workspaces (W192 and W192A), a conference room, and an outdoor footprint for wide-area AR experiments.
 
-- **Compute and rendering:** Ten custom workstations with Intel Core i7-14700K processors and NVIDIA RTX A6000 (48 GB), Quadro RTX 5000 (32 GB), and RTX 5070 Ti (16 GB) GPUs.
+- **Compute and rendering:** Ten custom workstations with Intel i7-14700K CPUs and NVIDIA RTX A6000 (48 GB), Quadro RTX 5000 (16 GB), and RTX 5070 Ti (16 GB) GPUs.
 - **Augmented reality:** Magic Leap 2, Microsoft HoloLens 2, and Snapchat Spectacles.
 - **Video passthrough and VR:** A fleet of Meta Quest 3 and Meta Quest Pro headsets.
 - **Spatial capture and reconstruction:** XGRIDS PortalCam scanner, Insta360 X5, Matterport, and dedicated LiDAR capture devices.
@@ -111,7 +111,7 @@ A completed interest form is required before we can move forward with anyone. Qu
 
 ### Prospective PhD Students
 
-Every PhD student here is fully funded. Under the supervision of Dr. You-Jin Kim, students receive a monthly stipend of **$2,800** paid year-round, including summers, along with full health insurance and complete tuition remission at both in-state and out-of-state rates.
+Every PhD student here is fully funded. Under Dr. You-Jin Kim’s supervision, students receive a **$2,800** monthly stipend year-round, including summers, plus full health insurance and tuition remission at in-state and out-of-state rates.
 
 For local context, a one-bedroom loft in downtown Lincoln runs about $1,090 per month as of April 2026. Our students can live comfortably on the stipend and keep their attention on the research.
 
@@ -121,11 +121,11 @@ For local context, a one-bedroom loft in downtown Lincoln runs about $1,090 per 
 
 ### Undergraduate and Current UNL Students {#unl-students}
 
-We regularly bring UNL students onto active projects. The same three steps apply, so start with the interest form above, and reach out to any lab member whose work interests you.
+We regularly bring UNL students onto active projects. The same three steps apply: start with the interest form, then contact any lab member whose work interests you.
 
 - **Research is not coursework.** There is no syllabus and no set of expected answers. You develop your own direction, with guidance from a mentor.
 - **Classes are still a good entry point.** Spatial Interaction and Simulation, Generative AI and Design, Computer Graphics, Wide-Area AR + Interactive Narrative, or Advanced Topics in Software Engineering all lead somewhere.
-- **Do a little homework on us.** Read our recent publications, see what the PhD students are working on, then contact the people whose projects interest you.
+- **Do a little homework on us.** Read our recent publications, see what the PhD students are working on, then contact those whose work interests you.
 - **Be specific.** Tell us what you want to work on, which project, and roughly how many hours a week you can commit.
 
 {% endcapture %}
