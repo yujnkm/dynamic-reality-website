@@ -21,7 +21,8 @@ $wrap: 700px;
 
 .publication-image img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  // matches the thumbnails (about 554 x 790), so nothing is cropped
+  aspect-ratio: 7 / 10;
   object-fit: cover;
   border-radius: var(--rounded);
 }
