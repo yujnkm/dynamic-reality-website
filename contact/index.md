@@ -53,15 +53,15 @@ The lab is located on the west side of Nebraska Hall along North 16th Street on 
 
 ### Visiting the Lab
 
-**Hourly parking – Lot 10**<br>
+**Hourly Parking – Lot 10**<br>
 [905 N 16th St, Lincoln, NE 68508](https://www.google.com/maps/place/905+N+16th+St,+Lincoln,+NE+68508/@40.8229722,-96.6983365,20z/data=!4m14!1m7!3m6!1s0x8796bf00283e6527:0x28044e72f1967e94!2sNebraska+Hall!8m2!3d40.8229301!4d-96.6973266!16s%2Fg%2F11vyd1l019!3m5!1s0x8796bee707bfa66d:0xf7b464de8e646a!8m2!3d40.823006!4d-96.698661!16s%2Fg%2F11c5fqqjlm?entry=ttu&g_ep=EgoyMDI2MTExNi4wIKXMDSoASAFQAw%3D%3D)<br>
-Pay through the [Passport Parking](https://www.passportparking.com/) app (Zone 4280).<br>
-$1.50 per hour.
+Parking costs $1.50 per hour in the [Passport Parking](https://www.passportparking.com/) app (Zone 1917).<br>
+\*The parking meters also take quarters and credit cards.
 
-**StarTran public bus**<br>
+**StarTran Public Bus**<br>
 [Bus Stop – N 16th St & X St](https://www.google.com/maps/place/North+16th+Street+%26+X+Street,+SE/@40.8229763,-96.6981917,20z/data=!4m14!1m7!3m6!1s0x8796bf00283e6527:0x28044e72f1967e94!2sNebraska+Hall!8m2!3d40.8229301!4d-96.6973266!16s%2Fg%2F11vyd1l019!3m5!1s0x8796bee7af7f595f:0xc4b087b3d02249dd!8m2!3d40.82311!4d-96.698068!16s%2Fg%2F11tx9hc0wt?entry=ttu&g_ep=EgoyMDI2MTExNi4wIKXMDSoASAFQAw%3D%3D)<br>
 The stop is right in front of the DRL windows at Nebraska Hall.<br>
-$1.25 cash, free for UNL students, faculty, and staff with a UNL bus pass.
+The bus fare is $1.25 cash, and it is free for the UNL community.
 
 {% endcapture %}
 
@@ -71,15 +71,15 @@ $1.25 cash, free for UNL students, faculty, and staff with a UNL bus pass.
 
 ## Facilities
 
-The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day.
+The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day. The Engineering Complex quad right next door is our outdoor experiment area, and the lab also has flight simulation facilities, described below.
 
-- **GPU workstations (W192C):** Ten custom-built machines with Intel i7-14700K CPUs, each with its own NVIDIA GPU: two RTX A6000 (48 GB), two RTX 4080 SUPER (16 GB), and six RTX 5070 Ti (16 GB).
 - **Augmented reality:** Two Magic Leap 2, four Microsoft HoloLens 2, and Snapchat Spectacles.
 - **Video passthrough and VR:** Ten Meta Quest 3, two Meta Quest Pro, and one Apple Vision Pro.
 - **Fabrication:** Two Bambu Lab 3D printers and printed circuit board (PCB) fabrication equipment.
 - **Spatial capture and reconstruction:** An XGRIDS PortalCam scanner, a Ricoh THETA 360° camera, and dedicated LiDAR cameras.
 - **Student workspace (W192):** Six temporary workstations with Alienware desktops and Quest 3 headsets for rapid prototyping.
 - **DRL member workspace (W192A):** Assigned seating for PhD and master's students.
+- **GPU workstations (W192C):** Ten custom-built machines with Intel i7-14700K CPUs, each with its own NVIDIA GPU: two RTX A6000 (48 GB), two RTX 4080 SUPER (16 GB), and six RTX 5070 Ti (16 GB).
 
 {%
   include figure.html
