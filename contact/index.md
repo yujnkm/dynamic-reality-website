@@ -71,7 +71,7 @@ The bus fare is $1.25 cash, and it is free for the UNL community.
 
 ## Facilities
 
-The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day. The Engineering Complex quad right next door is our outdoor experiment area, and the lab also has flight simulation facilities, described below.
+The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day. The Engineering Complex quad right next door is our main outdoor area for wide-area augmented reality experiments, and the lab also has flight simulation facilities, described below.
 
 - **Augmented reality:** Two Magic Leap 2, four Microsoft HoloLens 2, and Snapchat Spectacles.
 - **Video passthrough and VR:** Ten Meta Quest 3, two Meta Quest Pro, and one Apple Vision Pro.
