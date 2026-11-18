@@ -21,7 +21,7 @@ Thinking about joining? Look around the lab first, then read [Joining the Lab](#
 
 {%
   include figure.html
-  image="images/contact/Nebraska_Hall.png"
+  image="images/contact/nebraska-hall.jpg"
   caption="Nebraska Hall [NH] - Room W192 <br>
   900 N 16th St, Lincoln, NE 68508"
 %}
@@ -36,14 +36,33 @@ Thinking about joining? Look around the lab first, then read [Joining the Lab](#
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% capture col1 %}
 The lab is located on the west side of Nebraska Hall along North 16th Street on UNL's City Campus, directly facing Kiewit Hall. If you are driving, parking is available in Lot&nbsp;10, just across 16th Street to the west. Nebraska Hall connects to the Scott Engineering Center to the south, while Theodore Jorgensen Hall, home to the Department of Physics and Astronomy, sits across 16th Street to the southwest.
 
-There is a bus stop (North 16th Street & X Street, SE) located right outside our building and visible directly from our lab windows, making public transit a very convenient option for your visit.
+{% capture col1 %}
+
+{%
+  include figure.html
+  image="images/contact/visiting-map.jpg"
+  link="https://maps.app.goo.gl/EkQ1HAKN6DKyumfu8"
+  alt="Campus map with a DRL pin at the northwest corner of Nebraska Hall, Lot 10 across N 16th St to the west, and the Scott Engineering Center to the south. Opens in Google Maps."
+%}
+
 {% endcapture %}
 
 {% capture col2 %}
-{% include figure.html image="images/contact/lab-location.jpg" alt="Campus map showing Nebraska Hall, the lab entrance, Lot 10, and the Scott Engineering Center" %}
+
+### Visiting the Lab
+
+**Hourly parking – Lot 10**<br>
+[905 N 16th St, Lincoln, NE 68508](https://www.google.com/maps/place/905+N+16th+St,+Lincoln,+NE+68508/@40.8229722,-96.6983365,20z/data=!4m14!1m7!3m6!1s0x8796bf00283e6527:0x28044e72f1967e94!2sNebraska+Hall!8m2!3d40.8229301!4d-96.6973266!16s%2Fg%2F11vyd1l019!3m5!1s0x8796bee707bfa66d:0xf7b464de8e646a!8m2!3d40.823006!4d-96.698661!16s%2Fg%2F11c5fqqjlm?entry=ttu&g_ep=EgoyMDI2MTExNi4wIKXMDSoASAFQAw%3D%3D)<br>
+Pay through the [Passport Parking](https://www.passportparking.com/) app (Zone 4280).<br>
+$1.50 per hour.
+
+**StarTran public bus**<br>
+[Bus Stop – N 16th St & X St](https://www.google.com/maps/place/North+16th+Street+%26+X+Street,+SE/@40.8229763,-96.6981917,20z/data=!4m14!1m7!3m6!1s0x8796bf00283e6527:0x28044e72f1967e94!2sNebraska+Hall!8m2!3d40.8229301!4d-96.6973266!16s%2Fg%2F11vyd1l019!3m5!1s0x8796bee7af7f595f:0xc4b087b3d02249dd!8m2!3d40.82311!4d-96.698068!16s%2Fg%2F11tx9hc0wt?entry=ttu&g_ep=EgoyMDI2MTExNi4wIKXMDSoASAFQAw%3D%3D)<br>
+The stop is right in front of the DRL windows at Nebraska Hall.<br>
+$1.25 cash, free for UNL students, faculty, and staff with a UNL bus pass.
+
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
@@ -52,20 +71,40 @@ There is a bus stop (North 16th Street & X Street, SE) located right outside our
 
 ## Facilities
 
-The Dynamic Reality Lab occupies 1,200 square feet in Nebraska Hall (NH W192), built out for controlled spatial computing research. The space holds a data center (W192C), student workspaces (W192 and W192A), a conference room, and an outdoor footprint for wide-area AR experiments.
+The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day.
 
-- **Compute and rendering:** Ten custom workstations with Intel i7-14700K CPUs and NVIDIA RTX A6000 (48 GB), Quadro RTX 5000 (16 GB), and RTX 5070 Ti (16 GB) GPUs.
-- **Augmented reality:** Magic Leap 2, Microsoft HoloLens 2, and Snapchat Spectacles.
-- **Video passthrough and VR:** A fleet of Meta Quest 3 and Meta Quest Pro headsets.
-- **Spatial capture and reconstruction:** XGRIDS PortalCam scanner, Insta360 X5, Matterport, and dedicated LiDAR capture devices.
-- **Prototyping and amenities:** Alienware workstations for students, 3D printing equipment, and a student lounge.
+- **GPU workstations (W192C):** Ten custom-built machines with Intel i7-14700K CPUs, each with its own NVIDIA GPU: two RTX A6000 (48 GB), two RTX 4080 SUPER (16 GB), and six RTX 5070 Ti (16 GB).
+- **Augmented reality:** Two Magic Leap 2, four Microsoft HoloLens 2, and Snapchat Spectacles.
+- **Video passthrough and VR:** Ten Meta Quest 3, two Meta Quest Pro, and one Apple Vision Pro.
+- **Fabrication:** Two Bambu Lab 3D printers and printed circuit board (PCB) fabrication equipment.
+- **Spatial capture and reconstruction:** An XGRIDS PortalCam scanner, a Ricoh THETA 360° camera, and dedicated LiDAR cameras.
+- **Student workspace (W192):** Six temporary workstations with Alienware desktops and Quest 3 headsets for rapid prototyping.
+- **DRL member workspace (W192A):** Assigned seating for PhD and master's students.
 
 {%
   include figure.html
-  image="images/contact/tamu-to-nebraska-hall.webp"
+  image="images/contact/lab-layout.webp"
   cutout=true
-  caption="On the **left** is the former DRL site at Texas A&M University; on the **right** is Nebraska Hall, where DRL is currently located."
+  caption="Inside DRL at Nebraska Hall (NH W192): the conference room, student workspaces, and the main lab."
 %}
+
+### EEG + AR Headset and Flight Simulation
+
+{% capture col1 %}
+{% include figure.html image="images/contact/eeg-ar-headset.jpg" alt="Participant wearing the lab's custom headset, a Magic Leap 2 combined with an EEG system" %}
+{% endcapture %}
+
+{% capture col2 %}
+{% include figure.html image="images/contact/flight-simulator.jpg" alt="Noble Flight Simulation Cirrus cockpit surrounded by three large displays showing a runway" %}
+{% endcapture %}
+
+{% capture col3 %}
+{% include figure.html image="images/contact/ar-cockpit.jpg" alt="View from the cockpit at dusk with AR overlays for attitude, heading, and a terrain map" %}
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 col3=col3 %}
+
+Our lab custom-builds a headset that combines a Magic Leap 2 with a 14-channel EEG system, so researchers can record brain activity while users work in our augmented reality systems, such as AR Cockpit. In partnership with the **NIMBUS** Lab, we pair the headset with an FAA-approved Noble Flight Simulation (NFS) Cirrus Commercial Cockpit. AR cockpit overlays let us study pilot performance and human–machine interaction, helping shape the future of flight.
 
 ### Lab History
 
