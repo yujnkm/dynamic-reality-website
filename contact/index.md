@@ -108,7 +108,7 @@ Our lab custom-builds a headset that combines a Magic Leap 2 with a 14-channel E
 
 ### Lab History
 
-The Dynamic Reality Lab started in early 2024, taking shape at **UC Santa Barbara** before opening its first physical space at **Texas A&M University**. In January 2026 the lab moved to its permanent home at the **University of Nebraska–Lincoln**, where it continues to run wide-area outdoor AR experiments and study human-AI interaction in mixed reality.
+The Dynamic Reality Lab started in early 2024 at **UC Santa Barbara** before opening its first physical space at **Texas A&M University**. In January 2026 the lab moved to its permanent home at the **University of Nebraska–Lincoln**, where it runs wide-area outdoor AR experiments and studies human-AI interaction in mixed reality.
 
 {% include section.html %}
 
