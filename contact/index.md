@@ -71,7 +71,7 @@ The bus fare is $1.25 cash, and it is free for the UNL community.
 
 ## Facilities
 
-The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day. The Engineering Complex quad right next door is our main outdoor area for wide-area augmented reality experiments, and the lab also has flight simulation facilities, described below.
+The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated Nebraska Hall (NH W192), built for controlled XR research and experimentation. The space is divided into four areas: a conference room, a data center (W192C) behind its own secure door, student offices, and a main research area. Every room except the data center has west-facing windows that bring in natural light throughout the day. The Engineering Complex quad right next door is our main outdoor area for wide-area augmented reality experiments, and the lab also has flight simulator facilities, described below.
 
 - **Augmented reality:** Two Magic Leap 2, four Microsoft HoloLens 2, and Snapchat Spectacles.
 - **Video passthrough and VR:** Ten Meta Quest 3, two Meta Quest Pro, and one Apple Vision Pro.
@@ -79,7 +79,7 @@ The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated N
 - **Spatial capture and reconstruction:** An XGRIDS PortalCam scanner, a Ricoh THETA 360° camera, and dedicated LiDAR cameras.
 - **Student workspace (W192):** Six temporary workstations with Alienware desktops and Quest 3 headsets for rapid prototyping.
 - **DRL member workspace (W192A):** Assigned seating for PhD and master's students.
-- **GPU workstations (W192C):** Ten custom-built machines with Intel i7-14700K CPUs, each with its own NVIDIA GPU: two RTX A6000 (48 GB), two RTX 4080 SUPER (16 GB), and six RTX 5070 Ti (16 GB).
+- **GPU workstations (W192C):** Ten Intel Core Ultra 9 PCs with NVIDIA GPUs: two RTX A6000 (48 GB), two RTX 4080 SUPER (16 GB), and six RTX 5070 Ti (16 GB).
 
 {%
   include figure.html
@@ -88,7 +88,7 @@ The Dynamic Reality Lab is a 1,200-square-foot facility in the newly renovated N
   caption="Inside DRL at Nebraska Hall (NH W192): the conference room, student workspaces, and the main lab."
 %}
 
-### EEG + AR Headset and Flight Simulation
+### EEG + AR Headset and Flight Simulator
 
 {% capture col1 %}
 {% include figure.html image="images/contact/eeg-ar-headset.jpg" alt="Participant wearing the lab's custom headset, a Magic Leap 2 combined with an EEG system" %}
